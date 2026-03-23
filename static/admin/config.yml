@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: sortitionfoundation/opendlp
+  repo: sortitionfoundation/opendlp-docs
   branch: main
   # Set base_url to your Sveltia CMS Authenticator URL for OAuth login.
   # Without this, editors can still sign in using a GitHub personal access token.

@@ -7,31 +7,31 @@ title = 'OpenDLP Documentation'
 theme = 'govuk-sortition'
 
 [params]
-  description = 'Documentation for the Open Democratic Lottery Platform'
-  supportEmail = 'opendlp-support@sortitionfoundation.org'
-  githubURL = 'https://github.com/sortitionfoundation/opendlp'
-  sortitionLabURL = 'https://www.sortitionfoundation.org/lab'
-  sortitionFoundationURL = 'https://www.sortitionfoundation.org'
+description = 'Documentation for the Open Democratic Lottery Platform'
+supportEmail = 'opendlp-support@sortitionfoundation.org'
+githubURL = 'https://github.com/sortitionfoundation/opendlp-docs'
+sortitionLabURL = 'https://www.sortitionfoundation.org/lab'
+sortitionFoundationURL = 'https://www.sortitionfoundation.org'
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [menu]
-  [[menu.main]]
-    name = 'Home'
-    url = '/'
-    weight = 1
-  [[menu.main]]
-    name = 'Help'
-    url = '/help/'
-    weight = 2
-  [[menu.main]]
-    name = 'CSV Format'
-    url = '/csv-format/'
-    weight = 3
-  [[menu.main]]
-    name = 'Data Agreement'
-    url = '/data-agreement/'
-    weight = 4
+[[menu.main]]
+name = 'Home'
+url = '/'
+weight = 1
+[[menu.main]]
+name = 'Help'
+url = '/help/'
+weight = 2
+[[menu.main]]
+name = 'CSV Format'
+url = '/csv-format/'
+weight = 3
+[[menu.main]]
+name = 'Data Agreement'
+url = '/data-agreement/'
+weight = 4
