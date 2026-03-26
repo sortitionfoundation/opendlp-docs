@@ -9,14 +9,14 @@ backend:
   # Without this, editors can still sign in using a GitHub personal access token.
   # base_url: https://sveltia-cms-auth.YOUR_SUBDOMAIN.workers.dev
 
-media_folder: docs-site/static/files
+media_folder: static/files
 public_folder: /files
 
 collections:
   - name: pages
     label: Pages
     label_singular: Page
-    folder: docs-site/content
+    folder: content
     create: true
     extension: md
     format: yaml-frontmatter
