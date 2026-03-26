@@ -1,0 +1,25 @@
+# ABOUTME: GitHub Actions workflow to build the Hugo documentation site
+# ABOUTME: Runs on all branches to catch build errors early
+
+name: Build Site
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.123.7"
+          extended: true
+
+      - name: Build site
+        run: hugo --minify
