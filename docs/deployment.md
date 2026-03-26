@@ -1,4 +1,5 @@
 # ABOUTME: Deployment guide for the OpenDLP documentation site
+
 # ABOUTME: Covers static site deployment, CMS authentication setup, and content editing workflow
 
 # Deploying the OpenDLP Documentation Site
@@ -10,7 +11,7 @@ Sveltia CMS for browser-based content editing.
 
 - Hugo installed (v0.100.0 or later)
 - Access to the target server for rsync deployment
-- A GitHub account with access to the `sortitionfoundation/opendlp` repository
+- A GitHub account with access to the `sortitionfoundation/opendlp-docs` repository
 
 ## Building the site
 
@@ -45,7 +46,7 @@ redeployed (manually or via automation).
 
 When running the site locally with `just serve`, visit `http://localhost:1313/admin/`
 and click "Work with Local Repository". The browser will prompt you to select the
-root directory of the `opendlp` repo. Changes are written directly to your local
+root directory of the `opendlp-docs` repo. Changes are written directly to your local
 files — no GitHub auth required. This is useful for drafting content before pushing.
 
 ### Quick start: token-based sign-in
@@ -96,10 +97,10 @@ typical documentation editing usage.
 
 In the Cloudflare dashboard, go to your worker's Settings > Variables and add:
 
-| Variable               | Value                        | Encrypt? |
-|------------------------|------------------------------|----------|
-| `GITHUB_CLIENT_ID`     | Your OAuth app's Client ID   | No       |
-| `GITHUB_CLIENT_SECRET` | Your OAuth app's Client Secret | Yes    |
+| Variable               | Value                          | Encrypt? |
+| ---------------------- | ------------------------------ | -------- |
+| `GITHUB_CLIENT_ID`     | Your OAuth app's Client ID     | No       |
+| `GITHUB_CLIENT_SECRET` | Your OAuth app's Client Secret | Yes      |
 
 Optionally set `ALLOWED_DOMAINS` to restrict which domains can use the
 authenticator (e.g. `your-docs-domain.org`).
@@ -111,7 +112,7 @@ In `docs-site/static/admin/config.yml`, uncomment and update the `base_url`:
 ```yaml
 backend:
   name: github
-  repo: sortitionfoundation/opendlp
+  repo: sortitionfoundation/opendlp-docs
   branch: main
   base_url: https://sveltia-cms-auth.<SUBDOMAIN>.workers.dev
 ```
@@ -128,8 +129,9 @@ Rebuild and redeploy the site.
 ### Access control
 
 Editors need:
+
 - A GitHub account
-- Write access to the `sortitionfoundation/opendlp` repository
+- Write access to the `sortitionfoundation/opendlp-docs` repository
 
 The CMS commits changes using the editor's GitHub identity, so all edits
 are attributed to the person who made them.
