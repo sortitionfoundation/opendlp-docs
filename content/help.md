@@ -1,6 +1,6 @@
 ---
-title: "Help & Support"
-description: "Get help with using OpenDLP"
+title: Help & Support
+description: Get help with using OpenDLP
 ---
 
 If you need help with OpenDLP, please contact our support team by email. We aim to respond to all enquiries within 2 business days.
@@ -13,12 +13,12 @@ If you need help with OpenDLP, please contact our support team by email. We aim 
 
 To help us resolve your issue as quickly as possible, please include:
 
-- A clear description of the problem or question
-- The assembly name, URL or ID (if applicable)
-- Steps to reproduce the issue, including the URL of the page the issue occurred on
-- Any error messages you encountered
-- The browser and operating system you're using
-- Screenshots if they help illustrate the problem
+- A clear description of the problem or question.
+- The assembly name, URL or ID (if applicable).
+- Steps to reproduce the issue, including the URL of the page the issue occurred on.
+- Any error messages you encountered.
+- The browser and operating system you're using.
+- Screenshots if they help illustrate the problem.
 
 ## Additional Resources
 
