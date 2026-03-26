@@ -1,8 +1,13 @@
 {{/* ABOUTME: Site header with Sortition Foundation branding and navigation */}}
-{{/* ABOUTME: Matches the GOV.UK header pattern used in the backend application */}}
+{{/* ABOUTME: White header with logo, orange accent bar below */}}
 <header class="govuk-header" role="banner" data-module="govuk-header">
   <div class="govuk-header__container govuk-width-container">
     <div class="govuk-header__logo">
+      <a href="https://www.sortitionfoundation.org/" class="header-logo-link">
+        <img src="{{ "img/logosortition.svg" | relURL }}"
+             alt="Sortition Foundation"
+             class="header-logo" />
+      </a>
       <a href="{{ "/" | relURL }}" class="govuk-header__link govuk-header__link--homepage">
         <span class="govuk-header__logotype">
           <span class="govuk-header__logotype-text">OpenDLP Docs</span>
@@ -32,3 +37,8 @@
     </div>
   </div>
 </header>
+<div class="header-accent-bar">
+  <div class="govuk-width-container">
+    <hr class="header-accent-bar__line" />
+  </div>
+</div>

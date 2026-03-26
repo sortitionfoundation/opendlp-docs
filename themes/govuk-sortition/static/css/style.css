@@ -17,25 +17,129 @@
   --sortition-woad-blue: #548eb4;
 }
 
+/* Override GOV.UK font-face declarations to prevent 404s on GDS Transport fonts.
+   The site falls back to the system sans-serif stack defined in the GOV.UK font family. */
+@font-face {
+  font-family: "GDS Transport";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Arial");
+}
+
+@font-face {
+  font-family: "GDS Transport";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Arial");
+}
+
+@font-face {
+  font-family: "GDS Transport";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Arial");
+}
+
 /* Header branding */
 .govuk-header {
-  background: var(--sortition-dark-grey);
-  border-bottom: 10px solid var(--sortition-burnt-orange);
+  background: var(--sortition-white);
+  border-bottom: none;
+}
+
+/* Flex layout for header container so logo and nav sit side by side */
+.govuk-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.govuk-header__logo {
+  display: flex;
+  align-items: center;
+  float: none;
+  width: auto;
+  flex-shrink: 0;
+  gap: 12px;
+}
+
+.govuk-header__content {
+  float: none;
 }
 
 .govuk-header__logotype-text {
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .govuk-header__link:link,
 .govuk-header__link:visited {
-  color: var(--sortition-white);
+  color: var(--sortition-black);
 }
 
 .govuk-header__link:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   text-underline-offset: .1em;
+  color: var(--sortition-burnt-orange);
+}
+
+.header-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header-logo-link:hover {
+  text-decoration: none;
+}
+
+.header-logo {
+  height: 40px;
+  width: auto;
+}
+
+/* On narrow viewports, stack header rows and let menu sit below the logo */
+@media (max-width: 48.0525em) {
+  .govuk-header__container {
+    flex-wrap: wrap;
+  }
+
+  .govuk-header__content {
+    position: static;
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  .govuk-header__menu-button {
+    position: static;
+    display: inline-block;
+    float: none;
+  }
+}
+
+/* Hide mobile nav close button on desktop */
+.govuk-header__navigation-close {
+  display: none;
+}
+
+/* Orange accent bar between header and content */
+.header-accent-bar {
+  background: var(--sortition-white);
+}
+
+.header-accent-bar__line {
+  border: 0;
+  border-top: 4px solid var(--sortition-burnt-orange);
+  margin: 0;
+}
+
+/* Mobile menu button colour fix for white header */
+.govuk-header__menu-button {
+  color: var(--sortition-black);
+}
+
+.govuk-header__menu-button:hover {
+  color: var(--sortition-burnt-orange);
 }
 
 /* Focus styles using saffron yellow */
@@ -55,9 +159,14 @@ a:focus,
 /* Hero section */
 .hero-section {
   background: var(--sortition-burnt-orange);
-  margin: -40px -15px 0 -15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0 calc(-1 * var(--govuk-gutter-half, 15px));
+  padding-left: var(--govuk-gutter-half, 15px);
+  padding-right: var(--govuk-gutter-half, 15px);
+}
+
+/* Prevent horizontal overflow on mobile */
+html, body {
+  overflow-x: hidden;
 }
 
 .hero-section__title {
