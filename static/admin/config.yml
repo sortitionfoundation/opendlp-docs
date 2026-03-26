@@ -7,7 +7,7 @@ backend:
   branch: main
   # Set base_url to your Sveltia CMS Authenticator URL for OAuth login.
   # Without this, editors can still sign in using a GitHub personal access token.
-  # base_url: https://sveltia-cms-auth.YOUR_SUBDOMAIN.workers.dev
+  base_url: https://sveltia-cms-auth.hamish-10d.workers.dev
 
 media_folder: static/files
 public_folder: /files
