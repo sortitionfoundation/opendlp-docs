@@ -1,0 +1,12 @@
+# ABOUTME: Dependabot configuration for keeping GitHub Actions up to date
+# ABOUTME: Checks weekly with a 7-day cooldown (14 days for major updates)
+
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default: 7
+      semver-major: 14
