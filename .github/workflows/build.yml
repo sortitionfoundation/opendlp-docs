@@ -15,6 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      # not updated for 2 years, still on node 20 :/
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:

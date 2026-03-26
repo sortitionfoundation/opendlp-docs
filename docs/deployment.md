@@ -9,29 +9,52 @@ Sveltia CMS for browser-based content editing.
 
 ## Prerequisites
 
-- Hugo installed (v0.100.0 or later)
-- Access to the target server for rsync deployment
 - A GitHub account with access to the `sortitionfoundation/opendlp-docs` repository
+- Hugo installed locally (v0.100.0 or later) if you want to preview before pushing
 
-## Building the site
+## Deployment via GitHub Pages
 
-From the `docs-site/` directory:
+The site is automatically built and deployed to GitHub Pages whenever changes
+are pushed to the `main` branch. The workflow is defined in
+`.github/workflows/deploy.yml`.
+
+### How it works
+
+1. A push to `main` triggers the deploy workflow
+2. The workflow builds the site with `hugo --minify`, setting the base URL
+   automatically based on the GitHub Pages configuration
+3. The built site is uploaded as a GitHub Pages artifact and deployed
+
+The workflow can also be triggered manually from the **Actions** tab in GitHub
+(via `workflow_dispatch`).
+
+### Initial setup
+
+To enable GitHub Pages deployment for the repository:
+
+1. Go to the repository **Settings > Pages**
+2. Under **Source**, select **GitHub Actions**
+3. Push a change to `main` (or manually trigger the workflow from the Actions tab)
+
+### Custom domain
+
+To serve the site from a custom domain instead of `<org>.github.io/<repo>`:
+
+1. In **Settings > Pages**, enter your custom domain
+2. Configure DNS as described in
+   [GitHub's custom domain docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+
+The deploy workflow automatically picks up the correct base URL — no changes
+to `hugo.toml` are needed.
+
+## Building locally
+
+To preview the site locally:
 
 ```bash
-just build
+just serve    # Dev server on localhost:1313 (with drafts)
+just build    # Build to public/
 ```
-
-This runs `hugo` and outputs the static site to `public/`.
-
-## Deploying the static files
-
-The site is served as static files from disk. Deploy with rsync:
-
-```bash
-rsync -avz --delete public/ user@server:/path/to/docs-root/
-```
-
-Replace `user@server:/path/to/docs-root/` with the actual server details.
 
 ## Content editing with Sveltia CMS
 
@@ -39,8 +62,8 @@ Sveltia CMS provides a browser-based editor at `/admin/` on the deployed site.
 Editors can create and update pages through a visual interface — changes are
 committed directly to the GitHub repository.
 
-After content is edited via the CMS, the site needs to be rebuilt and
-redeployed (manually or via automation).
+After content is edited via the CMS, changes are committed to GitHub and
+the site is automatically rebuilt and deployed via GitHub Actions.
 
 ### Local editing (no auth needed)
 
@@ -138,10 +161,6 @@ are attributed to the person who made them.
 
 ## Content workflow
 
-1. Editor signs in at `/admin/` and makes changes
-2. Changes are committed to the repository on GitHub
-3. Someone (or automation) rebuilds the site: `just build`
-4. Someone (or automation) deploys: `rsync -avz --delete public/ user@server:/path/to/docs-root/`
-
-For fully automated publishing, consider adding a GitHub Actions workflow
-that builds and deploys on push to the relevant branch.
+1. Editor signs in at `/admin/` and makes changes (or pushes Markdown changes via git)
+2. Changes are committed to the `main` branch on GitHub
+3. GitHub Actions automatically builds and deploys the updated site to GitHub Pages
