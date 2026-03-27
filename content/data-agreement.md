@@ -1,6 +1,6 @@
 ---
-title: "User Data Agreement"
-description: "How OpenDLP handles your personal data"
+title: User Data Agreement
+description: How OpenDLP handles your personal data
 ---
 
 The site **https://opendlp.sortitionlab.org/** is operated by the Sortition Foundation and Sortition Europe Nonprofit Ltd. In accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council, and Act CXII of 2011 on informational self‑determination and freedom of information, Sortition Foundation and Sortition Europe Nonprofit Ltd. (as data controllers) provide the following information regarding
@@ -17,9 +17,8 @@ as follows:
 * **Sortition Foundation**
    Registered office: Unit 3 Wellbrook Court, Girton, Cambridge, CB3 0NA, United Kingdom
    Tax number: GB344874864
-
 * **Sortition Europe Nonprofit Ltd.**
-   Registered office: 1092 Budapest, Ráday utca 31. C. front building, 1st floor, unit 11
+   Registered office: 1092 Budapest, Ráday utca 31/C. front building, 1st floor, unit 11
    Tax number: 32356465‑2‑43
 
 ## 2. Basic Principles of Data Processing
@@ -68,11 +67,11 @@ The Foundation processes the personal data provided only for the purposes descri
 
 ### 4.4 Legal Basis for Processing
 
-* The Foundation processes personal data on the basis of consent, except in certain cases:
-  * The IP address upon site entry is recorded on the basis of the Foundation's legitimate interest (e.g. to ensure lawful operation, prevent misuse)
-  * Newsletter subscription is based on explicit, prior consent; unsubscribe is always possible
-  * Complaint handling: legal obligation (for record‑keeping) or the Foundation's legitimate interest (e.g. lawful handling of disputes)
-  * Direct contact with explicit consent: basis is the Data Subject's consent
+- The Foundation processes personal data on the basis of consent, except in certain cases:
+    - The IP address upon site entry is recorded on the basis of the Foundation's legitimate interest (e.g. to ensure lawful operation, prevent misuse)
+    - Newsletter subscription is based on explicit, prior consent; unsubscribe is always possible
+    - Complaint handling: legal obligation (for record‑keeping) or the Foundation's legitimate interest (e.g. lawful handling of disputes)
+    - Direct contact with explicit consent: basis is the Data Subject's consent
 
 ### 4.5 Data Processors
 
@@ -121,8 +120,7 @@ The Data Subject may at any time request information, correction, deletion, rest
 * If a request is not fulfilled, the Data Subject will be informed of reasons within one month.
 
 If the Data Subject believes their rights have been violated, they may also lodge a complaint with the National Authority for Data Protection and Freedom of Information in Hungary:
-
-**National Authority for Data Protection and Freedom of Information**
+  **National Authority for Data Protection and Freedom of Information**
  Address: 1055 Budapest, Falk Miksa utca 9‑11.
  Mailing address: 1374 Budapest, Pf. 603.
  Phone: +36‑1‑391‑1400
@@ -145,15 +143,11 @@ For questions, remarks, requests, or exercising privacy rights, contact:
 * **Sortition Europe Nonprofit Ltd.**
    Address: 1092 Budapest, Ráday utca 31. C. front building, 1st floor, unit 11
    Email: info@kozossegigyules.hu
-
 * **Sortition Foundation**
    Address: Unit 3 Wellbrook Court, Girton, Cambridge, CB3 0NA, United Kingdom
    Email: info@sortitionfoundation.org
-
-**Effective Date:** This privacy notice is valid from 1 September 2025 onward.
-
----
+  **Effective Date:** This privacy notice is valid from 1 September 2025 onward.
+  ---
 
 If you have any questions about how we handle your data, please contact us at [privacy@sortitionfoundation.org](mailto:privacy@sortitionfoundation.org).
-
-*Last updated: October 2025*
+  _Last updated: October 2025_
