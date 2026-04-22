@@ -21,6 +21,6 @@ Citizens' assemblies usually take place in informed environments. This means tha
 
 One key point to remember is that the experts are on tap but not on top - the assembly members draw on their knowledge but the experts have no say in the final decisions. Helping assembly members to think critically and recognise (conscious and unconscious) biases may be an important part of this process -- see videos below.
 
-Embed: https://www.youtube.com/watch?v=uMFgrHXetSM
-Embed: https://www.youtube.com/watch?v=tkbU8pNiwG4
+{{< youtube uMFgrHXetSM >}}
 
+{{< youtube tkbU8pNiwG4 >}}
