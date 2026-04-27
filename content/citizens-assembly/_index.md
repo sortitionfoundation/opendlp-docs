@@ -39,4 +39,4 @@ The OECD's Innovative Citizen Participation group, in its report "<a href = "htt
 
 ## Further reading
 
- 1. One of our partners, *Involve*, have developed <a hrefe = "https://www.involve.org.uk/resources/knowledge-base/how-do-i-setup-citizens-assembly/standards-citizens-assemblies">draft standards for citizens' assemblies</a>. These expand on the principles listed above.
+ 1. One of our partners, *Involve*, have developed <a href = "https://www.involve.org.uk/resources/knowledge-base/how-do-i-setup-citizens-assembly/standards-citizens-assemblies">draft standards for citizens' assemblies</a>. These expand on the principles listed above.
