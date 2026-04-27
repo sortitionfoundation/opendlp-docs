@@ -12,7 +12,7 @@ The postal method is standard in the UK, Australia and some other countries. We 
  
 ## Why bother with invites?
 
-Sending out invitations offers another opportunity to introduce randomness into the democratic lottery process. If we have an open call for people to register, then we run the risk of our pool of potential participants being dominated by the so called "usual suspects" -- people are more politically engaged, and more switched on to invitations to share their point of view.
+Sending out invitations offers another opportunity to introduce randomness into the democratic lottery process. If we have an open call for people to register, then we run the risk of our pool of potential participants being dominated by the so called "usual suspects" -- people who are more politically engaged, and more used to sharing their point of view.
 
-If, instead, we randomly select a subset of the population, and invite only those people to participate we tend to attract people who may not traditionally have engaged with democratic processes.
+If, instead, we randomly select a subset of the population, and invite only those people to participate, we tend to attract people who may not traditionally have engaged with democratic processes.
 
