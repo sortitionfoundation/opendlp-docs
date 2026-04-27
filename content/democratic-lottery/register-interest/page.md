@@ -1,6 +1,6 @@
 ---
-title: Invitation materials
-description: What do the invitation materials look like?
+title: Registration page
+description: How does a person register their interest?
 ---
 
 
