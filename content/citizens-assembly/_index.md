@@ -8,7 +8,7 @@ A citizens' assembly brings together a broadly representative bunch of people, s
 ## What are the key components of a citizens' assembly?
 
 Broadly speaking, a citizens' assembly has two components:
- 1. A <a href = "/democratic-lottery/what">democratic lottery</a> in which a group of people are randomly selected to participate in the assembly.
+ 1. A <a href = "/democratic-lottery/">democratic lottery</a> in which a group of people are randomly selected to participate in the assembly.
  2. A process of <a href = "deliberation">deliberation</a>. This is the assembly itelf: the assembly members come together, over a period of time, to learn about the issue, discuss it, and form recommendations about how to move forward.
 
 ## What makes a good citizens' assembly?
