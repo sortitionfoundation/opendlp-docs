@@ -17,27 +17,11 @@
   --sortition-woad-blue: #548eb4;
 }
 
-/* Override GOV.UK font-face declarations to prevent 404s on GDS Transport fonts.
-   The site falls back to the system sans-serif stack defined in the GOV.UK font family. */
-@font-face {
-  font-family: "GDS Transport";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Arial");
-}
-
-@font-face {
-  font-family: "GDS Transport";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Arial");
-}
-
-@font-face {
-  font-family: "GDS Transport";
-  font-style: normal;
-  font-weight: bold;
-  src: local("Arial");
+/* Allow browser to synthesize bold/italic for the fallback font stack.
+   GOV.UK Frontend uses GDS Transport (proprietary), so we rely on the
+   system sans-serif fallback with font-synthesis enabled. */
+body {
+  font-synthesis: weight style;
 }
 
 /* Header branding */
