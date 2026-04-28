@@ -10,6 +10,7 @@
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/govuk-frontend@5.11.1/dist/govuk/govuk-frontend.min.css">
+    <link rel="stylesheet" href="{{ "pagefind/pagefind-ui.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
   </head>
   <body class="govuk-template__body govuk-frontend-supported">
@@ -28,10 +29,18 @@
     {{ partial "footer.html" . }}
 
     <script src="https://cdn.jsdelivr.net/npm/govuk-frontend@5.11.1/dist/govuk/all.bundle.min.js"></script>
+    <script src="{{ "pagefind/pagefind-ui.js" | relURL }}"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         if (typeof window.GOVUKFrontend !== 'undefined') {
           window.GOVUKFrontend.initAll();
+        }
+        if (typeof PagefindUI !== 'undefined') {
+          new PagefindUI({
+            element: "#search",
+            showSubResults: true,
+            showImages: false
+          });
         }
       });
     </script>
