@@ -1,4 +1,4 @@
-{{/* ABOUTME: Site header with Sortition Foundation branding and navigation */}}
+{{/* ABOUTME: Site header with Sortition Foundation branding */}}
 {{/* ABOUTME: White header with logo, orange accent bar below */}}
 <header class="govuk-header" role="banner" data-module="govuk-header">
   <div class="govuk-header__container govuk-width-container">
@@ -8,30 +8,6 @@
              alt="Sortition Foundation"
              class="header-logo" />
       </a>
-    </div>
-    <div class="govuk-header__content">
-      <a href="#navigation"
-         class="govuk-header__menu-button govuk-js-header-toggle"
-         aria-controls="navigation"
-         aria-label="Show or hide navigation menu">Menu</a>
-      <nav class="govuk-header__navigation" id="navigation" aria-label="Menu">
-        <button type="button"
-                class="govuk-header__navigation-close govuk-js-header-toggle"
-                aria-controls="navigation"
-                aria-label="Close navigation menu">
-          <span class="govuk-visually-hidden">Close menu</span>
-        </button>
-        <ul class="govuk-header__navigation-list">
-          {{- $topLevelPages := where .Site.RegularPages "Section" "" }}
-          {{- $sections := .Site.Sections }}
-          {{- $allPages := $topLevelPages | append $sections }}
-          {{- range sort $allPages "Weight" }}
-          <li class="govuk-header__navigation-item">
-            <a class="govuk-header__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </li>
-          {{- end }}
-        </ul>
-      </nav>
     </div>
   </div>
 </header>
