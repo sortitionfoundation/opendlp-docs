@@ -3,15 +3,10 @@
 <header class="govuk-header" role="banner" data-module="govuk-header">
   <div class="govuk-header__container govuk-width-container">
     <div class="govuk-header__logo">
-      <a href="https://www.sortitionfoundation.org/" class="header-logo-link">
+      <a href="{{ "/" | relURL }}" class="header-logo-link">
         <img src="{{ "img/logosortition.svg" | relURL }}"
              alt="Sortition Foundation"
              class="header-logo" />
-      </a>
-      <a href="{{ "/" | relURL }}" class="govuk-header__link govuk-header__link--homepage">
-        <span class="govuk-header__logotype">
-          <span class="govuk-header__logotype-text">OpenDLP Docs</span>
-        </span>
       </a>
     </div>
     <div class="govuk-header__content">
@@ -27,11 +22,14 @@
           <span class="govuk-visually-hidden">Close menu</span>
         </button>
         <ul class="govuk-header__navigation-list">
-          {{ range .Site.Menus.main }}
+          {{- $topLevelPages := where .Site.RegularPages "Section" "" }}
+          {{- $sections := .Site.Sections }}
+          {{- $allPages := $topLevelPages | append $sections }}
+          {{- range sort $allPages "Weight" }}
           <li class="govuk-header__navigation-item">
-            <a class="govuk-header__link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+            <a class="govuk-header__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
           </li>
-          {{ end }}
+          {{- end }}
         </ul>
       </nav>
     </div>
