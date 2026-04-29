@@ -1,6 +1,7 @@
 ---
 title: What is a Democratic Lottery?
 description: The basic properties of a Democratic Lottery
+weight: 20
 ---
 
 A **democratic lottery**, also called a **sortition**, is a way of selecting a group of people from a population that is:

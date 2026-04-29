@@ -1,6 +1,7 @@
 ---
 title: Help & Support
 description: Get help with using OpenDLP
+weight: 50
 ---
 
 If you need help with OpenDLP, please contact our support team by email. We aim to respond to all enquiries within 2 business days.

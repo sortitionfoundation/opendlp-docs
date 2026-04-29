@@ -2,21 +2,37 @@
 {{/* ABOUTME: Renders section heading and links to child pages in full-width GOV.UK style */}}
 {{ define "content" }}
 <div class="govuk-grid-row">
-  <div class="govuk-grid-column-full">
+  <div class="govuk-grid-column-one-third">
+    {{ partial "sidebar.html" . }}
+  </div>
+  
+  <div class="govuk-grid-column-two-thirds">
     <h1 class="govuk-heading-xl">{{ .Title }}</h1>
     <div class="govuk-body">
       {{ .Content }}
     </div>
-    {{ range .Pages }}
-    <div class="govuk-!-margin-bottom-6">
-      <h2 class="govuk-heading-m">
-        <a class="govuk-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </h2>
-      {{ with .Description }}
-      <p class="govuk-body">{{ . }}</p>
-      {{ end }}
+
+    <div class="govuk-!-margin-top-6">
+      {{- $allPages := .Pages }}
+      {{- range $index, $element := $allPages }}
+        {{- if (modBool $index 2) }}
+          <div class="govuk-grid-row">
+        {{- end }}
+        <div class="govuk-grid-column-one-half">
+          <div class="feature-card">
+            <h2 class="govuk-heading-m">
+              <a class="govuk-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+            {{- with .Description }}
+              <p class="govuk-body">{{ . }}</p>
+            {{- end }}
+          </div>
+        </div>
+        {{- if or (modBool (add $index 1) 2) (eq (add $index 1) (len $allPages)) }}
+          </div>
+        {{- end }}
+      {{- end }}
     </div>
-    {{ end }}
   </div>
 </div>
 {{ end }}

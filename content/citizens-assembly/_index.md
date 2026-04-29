@@ -1,6 +1,7 @@
 ---
 title: What is a Citizens' Assembly?
 description: A description of some of the basic properties of a citizens' assembly.
+weight: 10
 ---
 
 A citizens' assembly brings together a broadly representative bunch of people, selected by lottery, to decide how we should live together. It's really that simple.
