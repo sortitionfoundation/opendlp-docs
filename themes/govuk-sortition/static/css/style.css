@@ -243,19 +243,21 @@ html, body {
   line-height: 1.3;
 }
 
-.side-nav-item > a {
+.side-nav-item > a.govuk-link,
+.side-nav-item > a.govuk-link:link,
+.side-nav-item > a.govuk-link:visited {
   display: block;
   padding: 8px 0;
-  text-decoration: none;
+  text-decoration: none !important;
   color: #1d70b8;
 }
 
-.side-nav-item > a:visited {
+.side-nav-item > a.govuk-link:visited {
   color: #4c2c92;
 }
 
-.side-nav-item > a:hover {
-  text-decoration: underline;
+.side-nav-item > a.govuk-link:hover {
+  text-decoration: underline !important;
   color: #003078;
 }
 
@@ -327,15 +329,18 @@ html, body {
   font-weight: 700;
   line-height: 1.3;
   color: var(--sortition-black);
+  text-decoration: none;
 }
 
-.side-nav-summary .govuk-link {
-  text-decoration: none;
+.side-nav-summary .govuk-link,
+.side-nav-summary .govuk-link:link,
+.side-nav-summary .govuk-link:visited {
+  text-decoration: none !important;
   color: var(--sortition-black);
 }
 
 .side-nav-summary .govuk-link:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: var(--sortition-black);
 }
 
