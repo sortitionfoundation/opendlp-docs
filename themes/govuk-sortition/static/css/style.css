@@ -336,7 +336,7 @@ html, body {
 .side-nav-summary .govuk-link:link,
 .side-nav-summary .govuk-link:visited {
   text-decoration: none !important;
-  color: var(--sortition-black);
+  color: inherit;
 }
 
 .side-nav-summary .govuk-link:hover {
@@ -377,6 +377,10 @@ html, body {
   color: var(--sortition-black);
 }
 
+/* Second-level section headers use link blue */
+.side-nav-content .govuk-details__summary-text {
+  color: #1d70b8;
+}
 
 /* Search box in header */
 .header-search {
