@@ -553,6 +553,11 @@ html, body {
   margin-top: 5px;
 }
 
+/* Mobile menu toggle - hidden on desktop */
+.mobile-menu__toggle {
+  display: none;
+}
+
 /* Mobile adjustments */
 @media (max-width: 48.0525em) {
   .header-search {
@@ -564,5 +569,85 @@ html, body {
     width: 100%;
     left: 0;
     right: 0;
+  }
+
+  /* Mobile menu styles */
+  .mobile-menu {
+    margin-bottom: 20px;
+  }
+
+  .mobile-menu__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #b1b4b6;
+    cursor: pointer;
+    font-family: "GDS Transport", arial, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--sortition-black);
+    text-align: left;
+  }
+
+  .mobile-menu__toggle:hover {
+    color: var(--sortition-burnt-orange);
+  }
+
+  .mobile-menu__toggle:focus-visible {
+    outline: 3px solid var(--sortition-saffron-yellow);
+    outline-offset: 0;
+    background-color: var(--sortition-saffron-yellow);
+  }
+
+  .mobile-menu__toggle-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+  }
+
+  .mobile-menu__toggle-icon::before,
+  .mobile-menu__toggle-icon::after {
+    content: "";
+    position: absolute;
+    background: currentColor;
+    left: 50%;
+    top: 50%;
+  }
+
+  /* Plus icon - horizontal line */
+  .mobile-menu__toggle-icon::before {
+    width: 12px;
+    height: 2px;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Plus icon - vertical line (hidden when open) */
+  .mobile-menu__toggle-icon::after {
+    width: 2px;
+    height: 12px;
+    transform: translate(-50%, -50%);
+  }
+
+  /* When open, hide vertical line to show minus */
+  .mobile-menu__toggle[aria-expanded="true"] .mobile-menu__toggle-icon::after {
+    display: none;
+  }
+
+  /* Hide navigation by default on mobile */
+  .mobile-menu .side-navigation {
+    display: none;
+    padding-top: 15px;
+  }
+
+  /* Show navigation when menu is open */
+  .mobile-menu--open .side-navigation {
+    display: block;
+    border-bottom: 1px solid #b1b4b6;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
   }
 }

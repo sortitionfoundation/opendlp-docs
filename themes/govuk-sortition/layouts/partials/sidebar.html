@@ -1,16 +1,22 @@
-<nav class="side-navigation">
-  <ul class="govuk-list">
-    {{- $currentPage := . -}}
-    {{- range .Site.Sections.ByWeight -}}
-      {{ template "menu-node" (dict "node" . "currentPage" $currentPage) }}
-    {{- end -}}
-    {{- range (where .Site.RegularPages "Section" "") -}}
-      <li class="side-nav-item">
-        <a class="govuk-link {{ if eq . $currentPage }}side-nav-item--active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
-    {{- end -}}
-  </ul>
-</nav>
+<div class="mobile-menu">
+  <button class="mobile-menu__toggle" aria-expanded="false" aria-controls="mobile-menu-content">
+    <span class="mobile-menu__toggle-text">Menu</span>
+    <span class="mobile-menu__toggle-icon"></span>
+  </button>
+  <nav class="side-navigation" id="mobile-menu-content">
+    <ul class="govuk-list">
+      {{- $currentPage := . -}}
+      {{- range .Site.Sections.ByWeight -}}
+        {{ template "menu-node" (dict "node" . "currentPage" $currentPage) }}
+      {{- end -}}
+      {{- range (where .Site.RegularPages "Section" "") -}}
+        <li class="side-nav-item">
+          <a class="govuk-link {{ if eq . $currentPage }}side-nav-item--active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{- end -}}
+    </ul>
+  </nav>
+</div>
 
 {{- define "menu-node" -}}
   {{- $node := .node -}}
@@ -21,7 +27,7 @@
   <li class="side-nav-item">
     {{- if or $node.Sections $node.Pages -}}
       <details class="govuk-details side-nav-details" data-module="govuk-details" {{ if $isActive }}open{{ end }}>
-        <summary class="govuk-details__summary side-nav-summary">
+        <summary class="govuk-details__summary side-nav-summary" tabindex="-1">
           <span class="govuk-details__summary-text">
             <a class="govuk-link {{ if eq $node $currentPage }}side-nav-item--active{{ end }}" href="{{ $node.RelPermalink }}">{{ $node.Title }}</a>
           </span>
