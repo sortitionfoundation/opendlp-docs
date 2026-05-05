@@ -13,7 +13,7 @@ media_folder: static/files
 public_folder: /files
 
 collections:
-  - name: pages
+  - name: root-pages
     label: Pages
     label_singular: Page
     folder: content
@@ -21,7 +21,7 @@ collections:
     extension: md
     format: yaml-frontmatter
     slug: "{{slug}}"
-    fields:
+    fields: &page_fields
       - label: Title
         name: title
         widget: string
@@ -32,3 +32,39 @@ collections:
       - label: Body
         name: body
         widget: markdown
+  - name: assembly-pages
+    label: Assembly Pages
+    label_singular: Assembly Page
+    folder: content/citizens-assembly
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields: *page_fields
+    index_file:
+      fields: &index_file_fields
+        - label: Title
+          name: title
+          widget: string
+        - label: Description
+          name: description
+          widget: string
+          required: false
+        - label: Weight
+          name: weight
+          widget: int
+          required: false
+        - label: Body
+          name: body
+          widget: markdown
+  - name: data-legal-pages
+    label: Data and Legal Pages
+    label_singular: Data and Legal Page
+    folder: content/data-and-legal
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields: *page_fields
+    index_file:
+      fields: *index_file_fields
