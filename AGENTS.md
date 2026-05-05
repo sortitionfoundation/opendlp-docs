@@ -24,6 +24,30 @@ Non-technical contributors may edit via the Sveltia CMS at `/admin/`, which comm
 
 The menu is defined in `hugo.toml` under `[menu]`. New pages need a corresponding menu entry there to appear in the navigation.
 
+### Adding a new section folder to the CMS
+
+Sveltia CMS does not natively support nested folders, so each folder under `content/` that contains an `_index.md` needs its own collection entry in `static/admin/config.yml`. When a new section folder is added to the site, register it as follows:
+
+1. Add a collection entry to `static/admin/config.yml`. Copy an existing nested-folder collection (e.g. `assembly-pages`) as a template — the field definitions are shared via the `*page_fields` and `*index_file_fields` YAML anchors, so only `name`, `label`, `label_singular`, and `folder` need to change:
+
+   ```yaml
+   - name: my-section-pages
+     label: My Section Pages
+     label_singular: My Section Page
+     folder: content/my-section
+     create: true
+     extension: md
+     format: yaml-frontmatter
+     slug: "{{slug}}"
+     fields: *page_fields
+     index_file:
+       fields: *index_file_fields
+   ```
+
+2. Order collection entries to match the `weight:` value in each section's `_index.md` (lowest first, at each nesting level). This keeps the CMS sidebar order aligned with the site navigation.
+3. If a `label` or `label_singular` contains `: ` (colon-space), wrap it in double quotes — plain YAML scalars cannot contain `: `. For example: `label: "Lottery: Selection Pages"`.
+4. Run `uvx yamllint static/admin/config.yml` before committing.
+
 ## Theme
 
 The theme at `themes/govuk-sortition/` is lightweight and custom-built:
