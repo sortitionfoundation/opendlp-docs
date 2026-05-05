@@ -1,6 +1,7 @@
 ---
 title: Invitation to register interest
 description: Why and how do we send out an invitation to register interest?
+weight: 10
 ---
 
 We start a democratic lottery process by sending out invitations inviting people to register their interest. We can do this in various ways:

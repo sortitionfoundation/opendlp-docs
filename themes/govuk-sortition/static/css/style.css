@@ -651,3 +651,45 @@ html, body {
     margin-bottom: 15px;
   }
 }
+
+
+
+
+/* Sticky layout for desktop content pages */
+@media (min-width: 48.0625em) {
+  /* position: sticky can be broken by overflow-x: hidden on parent elements */
+  html, body {
+    overflow-x: visible;
+  }
+
+  .govuk-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--sortition-white);
+  }
+
+  .header-accent-bar {
+    position: sticky;
+    top: 70px; /* Approx header height */
+    z-index: 1000;
+    background: var(--sortition-white);
+    border-bottom: 1px solid #b1b4b6; /* Subtle separation when scrolling */
+  }
+
+  .sidebar-column {
+    position: sticky;
+    top: 90px; /* Header + Accent bar + small margin */
+    height: calc(100vh - 110px);
+    overflow-y: auto;
+    z-index: 10;
+    /* Ensure scrollbar doesn't overlap content too much */
+    padding-right: 15px;
+  }
+
+  /* Smooth scroll for anchor links and offset for sticky header */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+  }
+}
