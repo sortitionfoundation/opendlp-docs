@@ -42,6 +42,17 @@
             showImages: false
           });
         }
+
+        // Mobile menu toggle
+        var menuToggle = document.querySelector('.mobile-menu__toggle');
+        var mobileMenu = document.querySelector('.mobile-menu');
+        if (menuToggle && mobileMenu) {
+          menuToggle.addEventListener('click', function() {
+            var isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            mobileMenu.classList.toggle('mobile-menu--open');
+          });
+        }
       });
     </script>
   </body>
