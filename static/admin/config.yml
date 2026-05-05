@@ -1,12 +1,14 @@
 # ABOUTME: Sveltia CMS configuration for editing OpenDLP documentation content
 # ABOUTME: Defines the GitHub backend, media storage, and content collections
+---
 
 backend:
   name: github
   repo: sortitionfoundation/opendlp-docs
   branch: main
   # Set base_url to your Sveltia CMS Authenticator URL for OAuth login.
-  # Without this, editors can still sign in using a GitHub personal access token.
+  # Without this, editors can still sign in using a GitHub personal
+  # access token.
   base_url: https://sveltia-cms-auth.hamish-10d.workers.dev
 
 media_folder: static/files
@@ -14,8 +16,8 @@ public_folder: /files
 
 collections:
   - name: root-pages
-    label: Pages
-    label_singular: Page
+    label: Root Pages
+    label_singular: Root Page
     folder: content
     create: true
     extension: md
@@ -57,6 +59,72 @@ collections:
         - label: Body
           name: body
           widget: markdown
+  - name: democratic-lottery-pages
+    label: Democratic Lottery Pages
+    label_singular: Democratic Lottery Page
+    folder: content/democratic-lottery
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields: *page_fields
+    index_file:
+      fields: *index_file_fields
+  - name: lottery-register-interest-pages
+    label: "Lottery: Register Interest Pages"
+    label_singular: "Lottery: Register Interest Page"
+    folder: content/democratic-lottery/register-interest
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields: *page_fields
+    index_file:
+      fields: *index_file_fields
+  - name: lottery-selection-pages
+    label: "Lottery: Selection Pages"
+    label_singular: "Lottery: Selection Page"
+    folder: content/democratic-lottery/selection
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields: *page_fields
+    index_file:
+      fields: *index_file_fields
+  - name: lottery-confirmation-pages
+    label: "Lottery: Confirmation Pages"
+    label_singular: "Lottery: Confirmation Page"
+    folder: content/democratic-lottery/confirmation
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields: *page_fields
+    index_file:
+      fields: *index_file_fields
+  - name: running-selection-pages
+    label: Running Selection Pages
+    label_singular: Running Selection Page
+    folder: content/running-selection
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields: *page_fields
+    index_file:
+      fields: *index_file_fields
+  - name: running-replacement-pages
+    label: Running Replacement Pages
+    label_singular: Running Replacement Page
+    folder: content/running-replacement
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields: *page_fields
+    index_file:
+      fields: *index_file_fields
   - name: data-legal-pages
     label: Data and Legal Pages
     label_singular: Data and Legal Page
