@@ -6,6 +6,10 @@ weight: 10
 
 A citizens' assembly brings together a broadly representative bunch of people, selected by lottery, to decide how we should live together. It's really that simple.
 
+The organisers of the Canadian National Citizens' Assembly on Electoral Reform made a short video explaining what citizens' assemblies are all about:
+
+{{< https://www.youtube.com/watch?v=ERx_34_udoM >}}
+
 ## What are the key components of a citizens' assembly?
 
 Broadly speaking, a citizens' assembly has two components:
