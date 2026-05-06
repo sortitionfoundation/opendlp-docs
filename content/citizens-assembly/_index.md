@@ -8,7 +8,7 @@ A citizens' assembly brings together a broadly representative bunch of people, s
 
 The organisers of the Canadian National Citizens' Assembly on Electoral Reform made a short video explaining what citizens' assemblies are all about:
 
-{{< https://www.youtube.com/watch?v=ERx_34_udoM >}}
+{{< youtube ERx_34_udoM >}}
 
 ## What are the key components of a citizens' assembly?
 
