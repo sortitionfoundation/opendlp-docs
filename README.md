@@ -47,6 +47,10 @@ Then you can build the site with `just build` and you can open `public/index.htm
 
 If you want live updates in your web browser while you edit and save the local files, you can run `just serve` and then open <http://localhost:1313/> in your web browser.
 
+### New folders
+
+If you add a new folder under `content/` and want to be able to edit the files in the browser, you'll need to add to the Sveltia CMS config. Detailed instructions are in `AGENTS.md` - under "Adding a new section folder to the CMS" - so you can just ask your agent to do that for you.
+
 ## Deployment
 
 Live deployment is a little complicated - we have [full deployment docs](docs/deployment.md) in this repo.
