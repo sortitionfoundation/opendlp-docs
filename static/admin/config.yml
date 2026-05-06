@@ -103,6 +103,17 @@ collections:
     fields: *page_fields
     index_file:
       fields: *index_file_fields
+  - name: planning-lottery-pages
+    label: Planning a Lottery Pages
+    label_singular: Planning Lottery Page
+    folder: content/planning-lottery
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    fields: *page_fields
+    index_file:
+      fields: *index_file_fields
   - name: running-selection-pages
     label: Running Selection Pages
     label_singular: Running Selection Page
