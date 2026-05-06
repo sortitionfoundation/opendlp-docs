@@ -4,7 +4,7 @@ description: "Setting up a new assembly on OpenDLP"
 weight: 10
 ---
 
-If you have admin permissions, then setting up a new assembly on OpenDLP is easy:
+If you want to run a selection through OpenDLP the first step is to create a new assembly. If you have admin permissions, then this is easy:
 
 <video width="600" controls>
   <source src="/files/new_assembly.mp4" type="video/mp4">
