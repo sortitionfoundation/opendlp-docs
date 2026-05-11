@@ -1,0 +1,181 @@
+1
+00:00:03,420 --> 00:00:07,280
+Let's check the format for our
+respondent data, also sometimes
+
+2
+00:00:07,280 --> 00:00:08,900
+called our people data.
+
+3
+00:00:08,900 --> 00:00:12,360
+This data may take the form of a
+
+4
+00:00:12,360 --> 00:00:17,080
+tab in a Google Sheet, like the
+one on the screen, or it may be in
+
+5
+00:00:17,080 --> 00:00:17,920
+a CSV file.
+
+6
+00:00:17,920 --> 00:00:20,780
+In either case, the format is the
+
+7
+00:00:20,780 --> 00:00:21,040
+same.
+
+8
+00:00:21,040 --> 00:00:25,720
+First off, there should be a
+
+9
+00:00:25,720 --> 00:00:29,520
+column corresponding to a unique
+ID for all of the people who have
+
+10
+00:00:29,520 --> 00:00:29,860
+responded.
+
+11
+00:00:29,860 --> 00:00:33,040
+So you'll see this is in column A
+
+12
+00:00:33,040 --> 00:00:37,740
+We have unique IDs for the 100
+people who have responded and
+
+13
+00:00:37,740 --> 00:00:42,460
+shown interest in our democratic
+lottery Next there should be a
+
+14
+00:00:42,460 --> 00:00:48,120
+series of columns that correspond
+to our targets So these are the
+
+15
+00:00:48,120 --> 00:00:51,020
+columns shown in red We've got
+gender, age bucket, ethnicity and
+
+16
+00:00:51,020 --> 00:00:56,840
+disability You need to check that
+these correspond to your target
+
+17
+00:00:56,840 --> 00:01:00,120
+data listed under the category
+column of your target data.
+
+18
+00:01:01,550 --> 00:01:04,910
+So here again, we have gender, age
+bucket, ethnicity, disability,
+
+19
+00:01:05,209 --> 00:01:07,750
+exactly the same as in our
+respondent data.
+
+20
+00:01:07,750 --> 00:01:12,210
+Now, there may be some other
+columns.
+
+21
+00:01:12,210 --> 00:01:17,090
+For instance, you may need to know
+the person's name and their
+
+22
+00:01:17,090 --> 00:01:18,490
+details for contacting them.
+
+23
+00:01:18,490 --> 00:01:20,030
+But those columns do not directly
+
+24
+00:01:20,030 --> 00:01:22,430
+affect how we run our selection.
+
+25
+00:01:22,430 --> 00:01:25,690
+The key columns for us are the
+
+26
+00:01:25,690 --> 00:01:29,330
+ones that we're going to use for
+targets.
+
+27
+00:01:29,330 --> 00:01:31,360
+So now take, for example, the
+gender column.
+
+28
+00:01:31,360 --> 00:01:34,300
+The entries in the gender column
+must correspond exactly to the
+
+29
+00:01:34,400 --> 00:01:37,640
+name values listed in your target
+data.
+
+30
+00:01:37,640 --> 00:01:43,380
+So here, under gender, our
+possible values are female, male,
+
+31
+00:01:43,380 --> 00:01:45,820
+non -binary, or other.
+
+32
+00:01:45,820 --> 00:01:48,600
+And you'll see in the respondents
+
+33
+00:01:48,820 --> 00:01:54,680
+data, under the gender heading,
+All of the entries are either
+
+34
+00:01:54,760 --> 00:01:59,280
+female, male or non -binary or
+other Let's check another one If
+
+35
+00:01:59,280 --> 00:02:05,940
+we look at age bucket and we move
+across to our target data You'll
+
+36
+00:02:05,940 --> 00:02:11,080
+see that there are various ranges
+that are allowed 0 to 17, 18 to 24
+
+37
+00:02:11,080 --> 00:02:16,440
+and so on If we check back in our
+respondents data You'll see that
+
+38
+00:02:16,440 --> 00:02:20,380
+all of these entries correspond to
+those listed in that category.
+
+39
+00:02:20,380 --> 00:02:24,100
+And the same for all of our target
+columns.
+

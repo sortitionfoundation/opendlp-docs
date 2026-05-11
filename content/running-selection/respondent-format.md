@@ -12,10 +12,10 @@ In each case your data is either a tab in a google sheet, or is a .csv file that
 A sample respondents file is [available to download](/files/Respondents_csv_example.csv). The following video goes through the key criteria to which your respondent data file must conform.
 
 <video width="600" controls>
-  <source src="/files/target_format.mp4" type="video/mp4">
+  <source src="/files/respondent_format.mp4" type="video/mp4">
 </video>
 
-These criteria are reproduced below.:
+These criteria are reproduced below. Note that the format of the respondent data depends on the format of the target data so you may need to [check the instructions for target data first](/running-selection/target-format/).
 
 1. There is a column (typically the first column) which contains a unique and never-changing ID number for each respondent.
 2. For each of the entries in the **category** column of the categories file, there is a column in the respondents file with that header.
