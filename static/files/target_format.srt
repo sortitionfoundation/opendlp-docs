@@ -1,0 +1,230 @@
+1
+00:00:05,320 --> 00:00:09,100
+Let's look at the format that is
+needed for your target data.
+
+2
+00:00:09,100 --> 00:00:13,520
+This target data is sometimes also
+called categories data or feature
+
+3
+00:00:13,520 --> 00:00:14,000
+data.
+
+4
+00:00:14,000 --> 00:00:17,540
+This data may either be a tab in
+
+5
+00:00:17,540 --> 00:00:20,400
+your Google spreadsheet or it may
+be a CSV file.
+
+6
+00:00:20,400 --> 00:00:24,060
+In both cases, the format is the
+same.
+
+7
+00:00:24,060 --> 00:00:27,060
+First of all, there are four
+important column headers.
+
+8
+00:00:27,060 --> 00:00:30,320
+Category, name, and then min and
+max.
+
+9
+00:00:31,020 --> 00:00:37,120
+In the category column, we have
+the list of categories that we're
+
+10
+00:00:37,120 --> 00:00:38,900
+going to use for our targets.
+
+11
+00:00:38,900 --> 00:00:40,620
+So in this case, we've got gender,
+
+12
+00:00:40,920 --> 00:00:43,220
+we've got age bucket, we've got
+ethnicity, and we've got
+
+13
+00:00:43,220 --> 00:00:43,620
+disability.
+
+14
+00:00:43,620 --> 00:00:46,640
+Under name, we have each of the
+
+15
+00:00:46,640 --> 00:00:50,080
+possible values that these
+categories can take.
+
+16
+00:00:50,080 --> 00:00:53,780
+So for the gender category, our
+possible values are female, male,
+
+17
+00:00:53,780 --> 00:00:55,220
+and non -binary or other.
+
+18
+00:00:55,220 --> 00:00:58,360
+And then finally, we have
+
+19
+00:00:58,600 --> 00:01:02,630
+numerical values, which will be
+the minimum and maximum targets
+
+20
+00:01:02,630 --> 00:01:04,550
+for each of those values.
+
+21
+00:01:04,550 --> 00:01:07,590
+So for instance, in this sample,
+
+22
+00:01:07,590 --> 00:01:13,850
+we have a minimum of 10 and a
+maximum of 11 for the female value
+
+23
+00:01:13,850 --> 00:01:15,470
+of the gender category.
+
+24
+00:01:15,470 --> 00:01:17,570
+Okay, so that's the basic format.
+
+25
+00:01:17,570 --> 00:01:22,770
+There is one other thing to check.
+
+26
+00:01:22,990 --> 00:01:24,430
+So in this example, we're
+
+27
+00:01:24,710 --> 00:01:26,670
+imagining that we're going to
+select 20 people.
+
+28
+00:01:27,020 --> 00:01:30,260
+It's very important that the sum
+of the minimums for each category
+
+29
+00:01:30,260 --> 00:01:37,460
+is less than or equal to 20, and
+the sum of the maximums is greater
+
+30
+00:01:37,460 --> 00:01:38,960
+than or equal to 20.
+
+31
+00:01:38,960 --> 00:01:40,580
+Let me show you what I mean.
+
+32
+00:01:40,580 --> 00:01:44,200
+If I highlight all the minimums in
+my gender category, then the sum
+
+33
+00:01:44,200 --> 00:01:48,660
+appears down the bottom here, and
+that sum is 10 plus 9 plus 0.
+
+34
+00:01:49,000 --> 00:01:49,620
+It's 19.
+
+35
+00:01:49,620 --> 00:01:52,260
+This is less than or equal to 20,
+
+36
+00:01:52,260 --> 00:01:53,100
+so we're okay.
+
+37
+00:01:53,100 --> 00:01:57,110
+If I check again, for the age
+
+38
+00:01:57,110 --> 00:01:57,930
+bucket minimums, I get 17.
+
+39
+00:01:57,930 --> 00:02:00,470
+For the ethnicity minimums, I get
+
+40
+00:02:00,470 --> 00:02:00,570
+17.
+
+41
+00:02:00,570 --> 00:02:03,050
+And for the disability minimums, I
+
+42
+00:02:03,050 --> 00:02:03,730
+get 19.
+
+43
+00:02:03,730 --> 00:02:08,630
+All of them were less than or
+
+44
+00:02:08,630 --> 00:02:11,630
+equal to 20, so that's good.
+
+45
+00:02:11,630 --> 00:02:13,270
+Let's check the maximums.
+
+46
+00:02:13,270 --> 00:02:14,710
+For gender, my maximums add up to
+22.
+
+47
+00:02:14,710 --> 00:02:15,650
+For age buckets, 23.
+
+48
+00:02:15,650 --> 00:02:17,570
+For ethnicity, 22.
+
+49
+00:02:17,570 --> 00:02:21,150
+And finally, for disability, the
+maximums add up to 21.
+
+50
+00:02:21,150 --> 00:02:32,320
+So in every single case, the sum
+of my maximums was greater than or
+
+51
+00:02:32,620 --> 00:02:36,040
+equal to 20, and so everything is
+satisfied.
+
+52
+00:02:36,040 --> 00:02:39,800
+I have what we call coherent
+targets, and I am good to go.
+
