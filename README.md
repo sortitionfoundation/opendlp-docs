@@ -8,7 +8,7 @@ The site is built with [Hugo](https://gohugo.io/) and uses a custom theme styled
 
 ## OpenDLP Docs
 
-The site is live at <https://docs.gh.sortitionlab.org>
+The site is live at <https://docs.sortitionlab.org>
 
 The source code can be found at <https://github.com/sortitionfoundation/opendlp-docs>
 
@@ -18,7 +18,7 @@ Whenever you edit the site there are GitHub Actions that will rebuild the site a
 
 ### Quick version
 
-Go to `/admin/` on the live site - [direct link](https://docs.gh.sortitionlab.org/admin/) click the "sign in with github" link. Once you've done that, you can edit in the browser and click "save". Around 30 seconds later your edit will be live on the site.
+Go to `/admin/` on the live site - [direct link](https://docs.sortitionlab.org/admin/) click the "sign in with github" link. Once you've done that, you can edit in the browser and click "save". Around 30 seconds later your edit will be live on the site.
 
 ### Longer version
 
@@ -29,7 +29,7 @@ Prerequisites:
 
 Editing
 
-- Go to `/admin/` on the live site - [direct link](https://docs.gh.sortitionlab.org/admin/) click the "sign in with github" link.
+- Go to `/admin/` on the live site - [direct link](https://docs.sortitionlab.org/admin/) click the "sign in with github" link.
 - Edit in the browser and click "save".
 - Around 30 seconds later your edit will be live on the site.
 
