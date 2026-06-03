@@ -4,6 +4,11 @@ description: The basic properties of a Democratic Lottery
 weight: 20
 ---
 
+<video width="600" controls>
+  <source src="/files/what_is_a_democratic_lottery.mp4" type="video/mp4">
+</video>
+
+
 A **democratic lottery**, also called a **sortition**, is a way of selecting a group of people from a population that is:
  1. **random**: people are selected to participate by chance;
  2. **inclusive**: everyone has a chance of being selected, and the lottery is run a way that includes people who might normally be excluded;
