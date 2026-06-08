@@ -15,16 +15,16 @@ Not everyone who receives an invitation is going to register. In the UK and Aust
 
 If you answer yes to all these questions, multiply the size of your assembly by 200 and send out that many invites.
 
-If you answer NO to any of them, think about sending more invites, up to 300 times the number of members.
+If you answer NO to any of them, think about sending more invites, up to 300 times the number of proposed assembly members.
 
 ## Key groups who may not respond
 
-Some people are more confident that their voices will be heard than others. We have to try and get as representative a group of registrations as possible. The voices least likely to sign up are:
+Some people are more confident that their voices will be heard than others. In our experience, the groups least likely to sign up are:
 
  - Those with lower levels of education;
  - Young people;
  - People living in socio-economically deprived areas.
 
-In invite materials, we can directly address this, by reassuring young people that they are welcome and wanted in the assembly, and by reassuring people that they don't need to know anything about the topic to participate.
+We can seek to remedy this in invitation materials: We reassure young people that they are welcome and wanted in the assembly; we reassure people that they don't need to know anything about the topic to participate.
 
 We can also send out more invitations to lower income areas - low IMD scores in the UK, or low SEIFA scores in Australia, for example. If you have resources for door-knocking, it's a good idea to target these areas, or their equivalent.
