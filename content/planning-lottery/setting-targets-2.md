@@ -1,6 +1,7 @@
 ---
 title: Setting targets 2
 description: How many people from each demographic?
+weight: 60
 ---
 
 Once you've decided which categories, or demographics, you're using, you then need to work out how to set the targets for each category.

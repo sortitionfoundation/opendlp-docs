@@ -1,18 +1,30 @@
 ---
 title: Getting enough registrations
 description: How many invites should I send?
+weight: 30
 ---
 
-Not everyone who receives an invitation is going to register and some things will affect how many invites you send out.
+Not everyone who receives an invitation is going to register. In the UK and Australia we find that our registration rate is between 3% and 5%.
 
-**Are you:**
+## Key factors affecting the registration rate
 
-**- implementing the recommendations?**
-
-**- paying participants?**
-
-**- and will people be interested in the topic?**
+ - Are you implementing the recommendations?
+ - Are you paying participants well? 
+ - Will people be interested in the topic?
+ - Is a well-known and reputable organisation behind this assembly? (E.g. the NHS.)
 
 If you answer yes to all these questions, multiply the size of your assembly by 200 and send out that many invites.
 
-If you answer NO to any of them, think about sending more invites, up to 300 times the number of members, especially if you aren't offering to pay people. Remember, if people aren't paid, you're decreasing the diversity of the pool you're recruiting from.
+If you answer NO to any of them, think about sending more invites, up to 300 times the number of members.
+
+## Key groups who may not respond
+
+Some people are more confident that their voices will be heard than others. We have to try and get as representative a group of registrations as possible. The voices least likely to sign up are:
+
+ - Those with lower levels of education;
+ - Young people;
+ - People living in socio-economically deprived areas.
+
+In invite materials, we can directly address this, by reassuring young people that they are welcome and wanted in the assembly, and by reassuring people that they don't need to know anything about the topic to participate.
+
+We can also send out more invitations to lower income areas - low IMD scores in the UK, or low SEIFA scores in Australia, for example. If you have resources for door-knocking, it's a good idea to target these areas, or their equivalent.

@@ -1,19 +1,20 @@
 ---
 title: Basic data
 description: Setting up for a successful process
+weight: 10
 ---
 
-Before you start working in earnest on the democratic lottery, you need to have established some basic data about the deliberative process that you are orginising. 
+Before you start working in earnest on the democratic lottery, you need to have established some basic data about the deliberative process that you are orgnising:
 
-- **Name of the assembly** (e.g. Council Citizens' Jury, Local Citizens' Panel)
+- **Name of the assembly**. E.g. Sortonia Citizens' Jury on Transport, Sortonia Climate Assembly.
 
-- **The question** should be short and snappy. Think of it as a news headline - it doesn't tell the whole story, but invites you to read more.
+- **The question** under consideration -- this should be short and snappy. Think of it as a news headline - it doesn't tell the whole story, but invites you to read more.
 
-- **The remit** which explains a bit more of what the assembly will be deliberating on, a couple of sentences. Again, you want to spark interest, so that people register.
+- **The remit** which explains a bit more of what the assembly will be deliberating on. This should be a couple of sentences. The aim is to spark interest so that people register.
 
 - **Accountability**. One of the key reasons people don't register is because they don't think decision-makers will act on the recommendations. Before you start recruiting participants you need to be sure that the recommendations they make will be effective -- this requires engagement with key stake holders and the holders of political power in the area.
 
-- **Size**. How large will the assembly be? 
+- **Size**. How many people with be in the assembly? 
 
 - **Dates, times and venue**. You are going to be asking people to register their interest in participation. They'll need to be able to check that they are available, and, in the caes of in-person events, they'll need to know that the venue is accessible. When you set dates, make sure you think carefully about holidays and religious festivals to give as many people as possible a chance to be included: for instance, meetings on a Friday evening or during Saturday may exclude Jewish people from participating.
 

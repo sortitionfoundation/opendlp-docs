@@ -1,6 +1,7 @@
 ---
 title: Setting targets
 description: Which demographics should I use?
+weight: 50
 ---
 
 Deciding which demographic targets you use is important for **legitimacy** and for good decision-making - which is why we select participants by democratic lottery. Obviously, some targets are more important than others - and some might make sense for one process, but not others. 
