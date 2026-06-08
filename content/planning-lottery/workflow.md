@@ -57,7 +57,7 @@ We usually have to replace about 10% of the selected participants during this ti
 
 ## 5. Onboarding and preparing for the first meeting.
 
-Once all participants have confirmed their willingness to participate, organisers will need to share practical information about participating This stage typically takes **three weeks**.
+Once all participants have confirmed their willingness to participate, organisers will need to share practical information about participating. This is the [onboarding stage](/planning-lottery/onboarding/) and typically takes **three weeks**.
 
 Mundane details are very important: where to park, how to attend online meetings, how to book travel or accommodation etc. In addition it will be important to make sure individual support needs are catered for: particular dietary requirements, accessibility needs and so on.
 
