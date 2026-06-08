@@ -4,7 +4,7 @@ description: How many people from each demographic?
 weight: 60
 ---
 
-The final phase of the (planning-lottery/workflow)[democratic lottery workflow] is the onboarding phase. You have already confirmed that all your selected people can participate. Now you need to keep them warm ready for the first meeting. To do this we recommend:
+The final phase of the [democratic lottery workflow](/planning-lottery/workflow) is the onboarding phase. You have already confirmed that all your selected people can participate. Now you need to keep them warm ready for the first meeting. To do this we recommend:
 
  - Do any promised follow-up contact in a timely fashion. It is vital that you keep the agreement that hasbeen made with participants during the confirmation call, so that they retain trust in the process.
  - Follow up multiple times with all participants but particularly those with additional needs. This recruitment process is designed to include voices that are less often heard - so people may need more support than you are used to. 

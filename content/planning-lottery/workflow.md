@@ -47,11 +47,11 @@ You need to keep an eye on who is registering to make sure everything is running
 
 ### 3b. Finalise targets
 
-You've already decided which features you'll be using for your targets, now you (/democratic-lottery/selection/targets2/)[need to put numbers to them]. E.g. How many *female* participants do you want, and how many male? 
+You've already decided which features you'll be using for your targets, now you [need to put numbers to them](/democratic-lottery/selection/targets2/). E.g. How many *female* participants do you want, and how many male? 
 
 ## 4. Selection and confirmation
 
-The day after your registration period closes, it is time to run the selection. This typically takes a matter of minutes. We then spend the rest of the week ringing all of the selected participants and (/democratic-lottery/confirmation/)[confirming that they are still available for participation]. This stage typically takes **one week**.
+The day after your registration period closes, it is time to run the selection. This typically takes a matter of minutes. We then spend the rest of the week ringing all of the selected participants and [confirming that they are still available for participation](/democratic-lottery/confirmation/). This stage typically takes **one week**.
 
 We usually have to replace about 10% of the selected participants during this time because their circumstances have changed and they are no longer able to take part.
 
