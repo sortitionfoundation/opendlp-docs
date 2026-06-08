@@ -4,7 +4,7 @@ description: Some general rules of thumb
 weight: 40
 ---
 
-Make sure you've read the "[selection/targets1)[what and why]" and the "(selection/targets1)[when and how]" articles about **targets**. Here we give you a few final helpful tips:
+Make sure you've read the (/selection/targets1/)[what and why] and the (/selection/targets2/)[when and how] articles about **targets**. Here we give you a few final helpful tips:
 
 ## How to approach targets
 
