@@ -18,7 +18,7 @@ So for instance you may decide that you wish to have a target like this:
  
 It is important to do this early for two reasons:
  1. *practicality*: if you want to use a target for gender, then you will need to ask people to tell you their gender when they register their interest.
- 2. *transparency*: to avoid any perception that targets have been maniuplated, it is important that they are set ahead of time.
+ 2. *transparency*: to avoid any perception that targets have been manipulated, it is important that they are set ahead of time.
 
 ## How do we set targets for representation?
 
