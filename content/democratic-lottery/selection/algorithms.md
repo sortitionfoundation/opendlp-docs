@@ -4,7 +4,7 @@ description: What are selection algorithms?
 weight: 15
 ---
 
-When we say we will "run a selection" using OpenDLP we mean that we will use a computer algorithm to randomly select 50 people from our pool of respondents , in such a way that all targets are satisfied.
+When we say we will "run a selection" using OpenDLP we mean that we will use a computer algorithm to select 50 people by lottery from our pool of respondents , in such a way that all targets are satisfied.
 
 The algorithm used by Sortition Foundation was developed in association with academics from Harvard and Carnegie Mellon Universities and was written up in a peer-reviewed article in *Nature*. The algorithm was proven to be "as fair as possible".
 

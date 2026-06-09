@@ -24,7 +24,7 @@ The people who are most likely to drop out are, typically, **people with lower l
 
 ## Replacements
 
-If someone does drop out and need replacing, then we will use the same [selection algorithm](http://localhost:1313/democratic-lottery/selection/algorithms/) to replace them with someone who wasn't originall selected. We do this replacement in such a way that is randomised, and (ideally) ensures that the final group of selected people still satisfies our original targets.
+If someone does drop out and need replacing, then we will use the same [selection algorithm](http://localhost:1313/democratic-lottery/selection/algorithms/) to replace them with someone who wasn't originall selected. We do this replacement by lottery in such a way that (ideally) the final group of selected people still satisfies our original targets.
 
 Some notes:
  1. It is not always possible to replace people so that we satisfy the original targets. The maths is much harder to satisfy when doing replacements, as compared to doing the initial selection. When doing a replacement we may have to decide which target we are prepared to relax: e.g. we may not be able to perform a replacement so that both the age **and** the ethnicity targets are satisfied -- so we may need to prioritise one.
