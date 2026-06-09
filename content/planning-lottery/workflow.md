@@ -18,7 +18,7 @@ Accessibility is crucial -- the average reading age of adults in the UK is estim
 
 ### 1b. Selecting recipients
 
-While invites are being designed, we also need to randomly select the people who will receive the invitations. For a postal recruitment we typically select recipients from a national database, restricting the selection to the population of interest (e.g. if the assembly is for the people of the "Region of Sortonia", then we only select addresses from that region.
+While invites are being designed, we also need to select, by lottery, the people who will receive the invitations. For a postal recruitment we typically select recipients from a national database, restricting the selection to the population of interest (e.g. if the assembly is for the people of the "Region of Sortonia", then we only select addresses from that region.
 
 ### 1c. Registration page
 
