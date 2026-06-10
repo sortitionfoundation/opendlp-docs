@@ -120,11 +120,12 @@ The Data Subject may at any time request information, correction, deletion, rest
 - If a request is not fulfilled, the Data Subject will be informed of reasons within one month.
 
 If the Data Subject believes their rights have been violated, they may also lodge a complaint with the National Authority for Data Protection and Freedom of Information in Hungary:
-**National Authority for Data Protection and Freedom of Information**
-Address: 1055 Budapest, Falk Miksa utca 9‑11.
-Mailing address: 1374 Budapest, Pf. 603.
-Phone: +36‑1‑391‑1400
-Fax: +36‑1‑391‑1410
+
+**National Authority for Data Protection and Freedom of Information**  
+Address: 1055 Budapest, Falk Miksa utca 9‑11.  
+Mailing address: 1374 Budapest, Pf. 603.  
+Phone: +36‑1‑391‑1400  
+Fax: +36‑1‑391‑1410  
 Email: ugyfelszolgalat@naih.hu
 
 The Data Subject may also bring a civil suit; competence lies with the court of their place of residence.
