@@ -22,16 +22,16 @@ While invites are being designed, we also need to select, by lottery, the people
 
 ### 1c. Registration page
 
-You will need to set up a method for people who recieve an invite to say "Yes"! Most people will do this via an online form, but it is also good to give the option of telephone regisration.
+You will need to set up a method for people who receive an invite to say "Yes"! Most people will do this via an online form, but it is also good to give the option of telephone registration.
 
-To set up your page you will need to know which features and feature values you will be using for your [targets]((democratic-lottery/selection/targets2/). For instance, if you are going to have a "gender" target, then your page will need a question "What is your gender?" together with the answers: *female* / "male* / *non-binary or other*.
+To set up your page you will need to know which features and feature values you will be using for your [targets]((democratic-lottery/selection/targets2/). For instance, if you are going to have a "gender" target, then your page will need a question "What is your gender?" together with the answers: *female* / *male* / *non-binary or other*.
 
 
 ## 2. Printing and posting
 
 For postal invitations, however, you will need materials to be printed and then posted: we typically allow two weeks for printing, and another week for posted invitations to land on doorsteps. Consequently, this stage typically takes **three weeks**.
 
-If your invitation to register interest is by email or social media, then, once invitations are ready, they can be posted immediately and no extra time is needed.
+If your invitation to register interest is by email or social media, then, once invitations are ready, they can be sent immediately and no extra time is needed.
 
 On the other hand, note that post may take longer at certain times of the year and in certain places.
 
@@ -43,7 +43,7 @@ While this is happening, there are two key jobs to do:
 
 ### 3a. Monitor registrations
 
-You need to keep an eye on who is registering to make sure everything is running smoothly. If you identify that a certain key group of people are not responding to your invitation (e.g. young people), then you may decide to take swift action to try and attract more responses from that group.
+You need to keep an eye on who is registering to make sure everything is running smoothly. If you identify that a certain key group of people are not responding to your invitation (e.g. young people), then you may decide to take swift action to try and attract more responses from that group. For instance, you may choose to contact local youth groups or schools to encourage registrations.
 
 ### 3b. Finalise targets
 

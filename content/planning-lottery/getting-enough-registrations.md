@@ -11,9 +11,9 @@ Not everyone who receives an invitation is going to register. In the UK and Aust
  - Are you implementing the recommendations?
  - Are you paying participants well? 
  - Will people be interested in the topic?
- - Is a well-known and reputable organisation behind this assembly? (E.g. the NHS.)
+ - Is there a well-known and reputable organisation behind this assembly? (E.g. the NHS.)
 
-If you answer yes to all these questions, multiply the size of your assembly by 200 and send out that many invites.
+If you answer yes to all these questions, multiply the size of your assembly by 250 and send out that many invites.
 
 If you answer NO to any of them, think about sending more invites, up to 300 times the number of proposed assembly members.
 

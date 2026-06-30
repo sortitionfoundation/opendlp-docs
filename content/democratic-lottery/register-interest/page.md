@@ -1,6 +1,7 @@
 ---
 title: Registration page
 description: How does a person register their interest?
+weight: 30
 ---
 
 The registration page is where people register their interest in an event. We normally recommend that people are given the option of registering by phone as well -- this is important to make sure people with weaker digital skills are not excluded from participating.

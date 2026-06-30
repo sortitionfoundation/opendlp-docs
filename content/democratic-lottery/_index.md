@@ -8,10 +8,11 @@ weight: 20
   <source src="/files/what_is_a_democratic_lottery.mp4" type="video/mp4">
 </video>
 
-A **democratic lottery**, also called a **sortition**, is a way of selecting a group of people from a population that is:
+A **democratic lottery**, also called a **sortition**, is a way of selecting a group of people from a population. Democratic lotteries...
 
-1.  **inclusive**: everyone has a chance of being selected, and the lottery is run a way that includes people who might normally be excluded;
-2.  **representative**: the set of people who are selected are representative of the population from which they were drawn.
+1.   **...avoid a room full of “the usual suspects”**: Open calls for public consultations are often dominated by people who are politically engaged, whose views are already well-represented in public discourse. A democratic lottery ensures that the ordinary person on the street can have a say.
+2.  **... are representative**: We use demographic, socio-economic and attitudinal targets to ensure that the people in the room reflect the community from which they are drawn.
+3.  **...are fair and inclusive**: Everyone in the area has a fair chance of being invited to participate, and of being selected to take part.
 
 It is called a **lottery** because everyone has a chance to be selected, but no one is guaranteed.
 

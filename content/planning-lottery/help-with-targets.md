@@ -16,15 +16,15 @@ Make sure you've read the [what and why](/selection/targets1/) and the [when and
 
 When thinking about what questions to ask, these are things to bear in mind:
 
-- **What targets are hard to hit?** These are good ones to include. For example, we often don't hit the target for people with secondary school education - so we often include highest level of education to get that diversity in the room. 
+- **What targets are hard to hit?** These are good ones to include. For example, we often don't hit the target for people with only secondary school education - so we often include a target for highest level of education to get that diversity in the room. 
 
 - **Are some people more affected by this question?**  You might want to ensure they're in the room, possibly in larger numbers than they are in the community. For example, if there's a development that affects one neighbourhood more than others.
 
-- **Is it important that some people are in the room?** If the topic is hate speech, you might want people who are targetted by hate speech in the room, so you might ask for religious affiliation or sexuality, for example.
+- **Is it important that some people are in the room?** If the topic is hate speech, you might want people who may be potential victims of hate speech in the room, so you might ask for religious affiliation or sexuality, for example.
 
 ## How to set targets
 
-**1. Use trusted sources.**  Ideally, use official census data. Where the census doesn't cover a category (such as attitudinal questions), find the most trusted source available.
+**1. Use trusted sources.**  Ideally, use official census data. Where the census doesn't cover a category (such as attitudinal questions), find the most trusted source available. If there is no source available we may choose to use [targets for inclusion](/selection/targets2/) to ensure diversity.
 
 **2. Justify deviations**. Sometimes, you might want to over-represent a community. Be clear about why you've made that decision - are they disproportionately affected? Is there a historical or cultural safety reason?
 

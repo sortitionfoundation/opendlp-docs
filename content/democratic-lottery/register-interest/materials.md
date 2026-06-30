@@ -1,6 +1,7 @@
 ---
 title: Invitation materials
 description: What do the invitation materials look like?
+weight: 20
 ---
 
 When we invite people to register their interest in participating it is crucial we remember the principle of **inclusiveness**.

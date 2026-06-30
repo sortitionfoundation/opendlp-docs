@@ -1,11 +1,12 @@
 ---
 title: Who receives an invitation to register?
 description: Who receives an invitation to register?
+weight: 10
 ---
 
-The first step of a two-step democratic lottery is **select the people who will receive an invitation**.
+The first step of a two-step democratic lottery is to **select the people who will receive an invitation**.
 
-You may choose not to do this, and instead have an "open call" for registrations. The danger with an open call is that the people who will register will be the so called "usual suspects" -- people who are more politically engaged and more used to sharing their opinions. An open call may not result in your pool of registered people containing a good cross section of society (and so will fail the test for being "representative".)
+You may choose not to do this, and instead have an "open call" for registrations. The danger with an open call is that the people who will register will be the so called "usual suspects" -- people who are more politically engaged and more used to sharing their opinions. An open call may not result in your pool of registered people containing a good cross section of society and so may make selecting a representative group more challenging.
 
 There are three main ways that Sortition Foundation selects the people who receive an invitation.
 
@@ -38,6 +39,6 @@ To use the method in, say, Poland, we first select 10 locations across Poland by
 
 ## Database
 
-In situtations where the cost of printing and postage costs are prohibitive, we have another method of sending out invitations in the UK. Sortition Foundation maintains a database of all of the people who have registered their interest in previous events **and** have told us that they are happy for us to get in touch with them about any future events.
+In situations where the cost of printing and postage costs are prohibitive, we have another method of sending out invitations in the UK. Sortition Foundation maintains a database of all of the people who have registered their interest in previous events **and** have told us that they are happy for us to get in touch with them about any future events.
 
 We can use this database to send out invitations to register interest. For instance, if a client wishes to run a democratic lottery for the population of Scotland, we can select X number of people from our database who live in Scotland. We then email them and invite them to register their interest.

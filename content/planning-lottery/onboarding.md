@@ -6,9 +6,9 @@ weight: 60
 
 The final phase of the [democratic lottery workflow](/planning-lottery/workflow) is the onboarding phase. You have already confirmed that all your selected people can participate. Now you need to keep them warm ready for the first meeting. To do this we recommend:
 
- - Do any promised follow-up contact in a timely fashion. It is vital that you keep the agreement that hasbeen made with participants during the confirmation call, so that they retain trust in the process.
+ - Do any promised follow-up contact in a timely fashion. It is vital that you keep the agreement that has been made with participants during the confirmation call, so that they retain trust in the process.
  - Follow up multiple times with all participants but particularly those with additional needs. This recruitment process is designed to include voices that are less often heard - so people may need more support than you are used to. 
- - we know from experience that the people who are most likely to drop out are **young people and people with lower educational qualifications**. You should prioritise these people in your communications. Email is not likely to be enough to keep people on board -- they need a phone call, ideally within 48 hours of the first contact you make with them, probably more than one.
+ - We know from experience that the people who are most likely to drop out are **young people and people with lower educational qualifications**. You should prioritise these people in your communications. Email is not likely to be enough to keep people on board -- they need a phone call, ideally within 48 hours of the first contact you make with them, probably more than one.
  - Clients who have offered a more personal form of contact -- the same, named person getting in touch over a period of time -- have reported the best response rate here. 
  - If someone is not responding to you, try another form of communication e.g. text, phone. If someone is still not responding, you can talk to us about replacing them. 
  - Ask participants to respond actively so you know whether or not they are still in contact with the process.
