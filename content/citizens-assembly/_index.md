@@ -16,11 +16,11 @@ Broadly speaking, a citizens' assembly has two components:
  1. A <a href = "/democratic-lottery/">democratic lottery</a> in which a group of people are selected, by lottery to participate in the assembly.
  2. A process of <a href = "deliberation">deliberation</a>. This is the assembly itelf: the assembly members come together, over a period of time, to learn about the issue, discuss it, and form recommendations about how to move forward.
 
-Most of the documentation on this site is focused on the first of these two components. So, in this piece, we will briefly focus on the second part. 
+Most of the documentation on this site is focused on the first of these two components. So, in this piece, we will briefly focus on the second part. We describe four important aspects of a citizens' assembly.
 
 ## 1. Bring people together
 
-A citizens' assembly is about bring people together. This is typically achieved by bringing people face-to-face and sitting them in small groups at tables, with a trained, professional facilitator at each table, like this:
+A citizens' assembly is about bringing people together. This is typically achieved by bringing people face-to-face and sitting them in small groups at tables, with a trained, professional facilitator at each table, like this:
 
 <figure>
     <img src="/citizens-assembly/ca.jpg" width="500"
