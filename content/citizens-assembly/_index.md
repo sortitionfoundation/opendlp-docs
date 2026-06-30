@@ -39,14 +39,16 @@ An important aspect of any citizens' assembly is making sure assembly members ha
 
 A good citizen's assembly give plenty of opportunity for participants to discuss, listen and talk to each other – and give reasons for their opinions.
 
-**Process, process, process**. We cannot over-emphasise the importance of the design of the deliberative process. Because of course it is not good enough to simply selected a broadly representative bunch of people by lottery and throw them in a room together and say "decide". So, typically, professional community engagement facilitators are used to design and run an assembly that alternates between plenary and small group discussions, between learning, enquiring, developing informed opinions, and finally making decisions.
+**Process, process, process**. We cannot over-emphasise the importance of the design of the deliberative process. Because of course it is not good enough to simply select a broadly representative bunch of people by lottery, and then throw them in a room together and say "Decide!". So, typically, professional community engagement facilitators are used to design and run an assembly that alternates between plenary and small group discussions, between learning, enquiring, developing informed opinions, and finally making decisions.
 
 This is often not a linear process but a more circular one, where participants learn and deliberate and make some decisions (such as prioritising options or people they want to hear more from) before going into more cycles of learn >> deliberate >> decide.
 
 ## 4. Decide!
 
-Ultimately citizens' assemblies are about making political recommendations and decisions, so when the assembly finishes, decisions must be made. Often the participants themselves will come up with the final list of questions to be voted on – and this list of questions should be made by consensus. Everyone should agree that the questions are the important things to decide upon. The answers themselves are a different matter. It may be that the answer is a simple "yes" or "no" to each question, but more often than not a more nuanced approach can be taken, with participants grading their enthusiasm for differing options (e.g. rating them on a scale from "strongly agree" to "strongly disagree"), which gives more information about strong minority opposition (and the level and strength of support) for the various options.
+Ultimately citizens' assemblies are about making political recommendations and decisions, so when the assembly finishes, decisions must be made. Often the participants themselves will come up with the final list of questions to be voted on – and this list of questions should be made by consensus. Everyone should agree that the questions are the important things to decide upon. 
 
-However, as important as the final decisions and recommendations are, almost more important are the reasons for those recommendations. This is what sets a citizens' assembly apart from, for example, referenda or opinion polling. It is another reason why people trust citizens' assemblies – you not only find out what is decided, but why that decision was made.
+The answersare a different matter. It may be that the answer is a simple "yes" or "no" to each question, but more often than not a more nuanced approach can be taken, with participants grading their enthusiasm for differing options (e.g. rating them on a scale from "strongly agree" to "strongly disagree"). This gives more information about strong minority opposition (and the level and strength of support) for the various options.
+
+However, as important as the final decisions and recommendations are, it is also vital to record the **reasons** for those recommendations. This is another thing that sets a citizens' assembly apart from, for example, referenda or opinion polling. It is another reason why people trust citizens' assemblies – you not only find out what is decided, but why that decision was made.
 
 
