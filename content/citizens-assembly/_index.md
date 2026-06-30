@@ -1,6 +1,6 @@
 ---
 title: What is a Citizens' Assembly?
-description: A description of some of the basic properties of a citizens' assembly.
+description: The basic properties of a citizens' assembly.
 weight: 10
 ---
 
@@ -16,32 +16,37 @@ Broadly speaking, a citizens' assembly has two components:
  1. A <a href = "/democratic-lottery/">democratic lottery</a> in which a group of people are selected, by lottery to participate in the assembly.
  2. A process of <a href = "deliberation">deliberation</a>. This is the assembly itelf: the assembly members come together, over a period of time, to learn about the issue, discuss it, and form recommendations about how to move forward.
 
-## What makes a good citizens' assembly?
+Most of the documentation on this site is focused on the first of these two components. So, in this piece, we will briefly focus on the second part. 
 
-The OECD's Innovative Citizen Participation group, in its report "<a href = "https://www.oecd.org/gov/innovative-citizen-participation-and-new-democratic-institutions-339306da-en.htm">Catching the Deliberative Wave: Innovative Citizen Participation and New Democratic Institutions</a>" outline eleven "<a href = "https://www.oecd-ilibrary.org/governance/innovative-citizen-participation-and-new-democratic-institutions_339306da-en">good practice principles</a>" for deliberative citizens' assemblies, which we have paraphrased here:
+## 1. Bring people together
 
- 1. **Purpose**: The aim should be clear, phrased neutrally, and linked to a well-defined public problem.
+A citizens' assembly is about bring people together. This is typically achieved by bringing people face-to-face and sitting them in small groups at tables, with a trained, professional facilitator at each table, like this:
 
- 2. **Accountability**: The outcome should influence public decisions. At a bare minimum the government should publicly respond to the participants’ recommendations, and preferably act on them.
+<figure>
+    <img src="/citizens-assembly/ca.jpg" width="500"
+         alt="A citizens' Assembly">
+</figure>
 
- 3. **Transparency**: The design, processes, and final reports should be available for public scrutiny, and all funding sources disclosed.
+The meetings can happen online, or a mix of face-to-face and online. In any case, the entire group is typically split regularly into break-out groups with a facilitator, so everyone gets to have their say, and then comes back together to make collective decisions.
 
-4. **Representative**: The participants should be a representative microcosm of the general public, selected by lottery. Everyone should have an equal opportunity to be selected to participate.
+## 2. Learn
 
-5. **Inclusive**: considering how to involve under-represented groups is important, and participation should be supported through remuneration, expenses, and/or providing or paying for childcare and eldercare.
+A good citizens' assembly will ensure that those most knowledgable about, or affected by, the issue address the assembly. These people bring in diverse viewpoints and proposals.
 
-6. **Information**: Participants should have access to a wide range of accurate, relevant, and accessible evidence and expertise, including experts and advocates chosen by the citizens themselves.
+An important aspect of any citizens' assembly is making sure assembly members have access to high quality and diverse information from a range of experts and other stakeholders. This is not easy, but it is possible.
 
-7. **Deliberation**: The process should facilitate participants in finding common ground for their collective recommendations.
+## 3. Discuss
 
-8. **Time**: adequate time for participants to learn, weigh the evidence, and develop informed recommendations must be given. Typically participants should meet for at least four full days.
+A good citizen's assembly give plenty of opportunity for participants to discuss, listen and talk to each other – and give reasons for their opinions.
 
-9. **Integrity**: The process should be run independently of the commissioning public authority.
+**Process, process, process**. We cannot over-emphasise the importance of the design of the deliberative process. Because of course it is not good enough to simply selected a broadly representative bunch of people by lottery and throw them in a room together and say "decide". So, typically, professional community engagement facilitators are used to design and run an assembly that alternates between plenary and small group discussions, between learning, enquiring, developing informed opinions, and finally making decisions.
 
-10. **Privacy**: There should be respect for participants’ privacy to protect them from undesired media attention and harassment, as well as to preserve participants’ independence.
+This is often not a linear process but a more circular one, where participants learn and deliberate and make some decisions (such as prioritising options or people they want to hear more from) before going into more cycles of learn >> deliberate >> decide.
 
-11. **Evaluation**: anonymous evaluation by the participants to assess the process should be conducted (e.g. on quantity and diversity of information, amount of time devoted to learning, independence of facilitation). The deliberative process should also be evaluated on the impact of final outcomes and implemented recommendations.
+## 4. Decide!
 
-## Further reading
+Ultimately citizens' assemblies are about making political recommendations and decisions, so when the assembly finishes, decisions must be made. Often the participants themselves will come up with the final list of questions to be voted on – and this list of questions should be made by consensus. Everyone should agree that the questions are the important things to decide upon. The answers themselves are a different matter. It may be that the answer is a simple "yes" or "no" to each question, but more often than not a more nuanced approach can be taken, with participants grading their enthusiasm for differing options (e.g. rating them on a scale from "strongly agree" to "strongly disagree"), which gives more information about strong minority opposition (and the level and strength of support) for the various options.
 
- 1. The UK deliberative democracy sector have developed <a href = "https://www.involve.org.uk/resources/knowledge-base/how-do-i-setup-citizens-assembly/standards-citizens-assemblies">draft standards for citizens' assemblies</a>. These expand on the principles listed above.
+However, as important as the final decisions and recommendations are, almost more important are the reasons for those recommendations. This is what sets a citizens' assembly apart from, for example, referenda or opinion polling. It is another reason why people trust citizens' assemblies – you not only find out what is decided, but why that decision was made.
+
+
