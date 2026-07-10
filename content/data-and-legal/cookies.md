@@ -1,4 +1,7 @@
-# Cookies
+---
+title: Cookies
+description: What cookies are set by OpenDLP and why
+---
 
 Cookies are small files saved on your device when you visit a website. OpenDLP uses
 cookies only to make the service work — to keep you signed in, to keep forms secure, and
