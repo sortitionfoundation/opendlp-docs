@@ -37,10 +37,31 @@ If you choose a language, we remember it so you do not have to choose again on e
 This preference is stored inside the `session` cookie above. You can change it at any time
 by choosing a different language.
 
+## Bot protection when you create an account
+
+The account signup form includes a check, provided by Cloudflare Turnstile, that tells
+people apart from automated programs. **The check sets no cookies** and stores nothing on
+your device.
+
+To work, the check sends some technical information about your browser, together with your
+IP address, to Cloudflare. This happens only on the signup page — no other page contacts
+Cloudflare. Cloudflare does not use this information for advertising, and it is not used to
+track you across other websites.
+
 ## Cookies from other companies
 
 OpenDLP does not set any third-party cookies, and does not embed advertising, social media
 buttons, or analytics services that would set them.
+
+Two places involve another company, and neither stores anything on your device just by
+visiting the page:
+
+- The signup form's bot check is provided by Cloudflare — see above. It sets no cookies.
+- An assembly's registration pages may include an embedded YouTube video. We only allow
+  YouTube's privacy-enhanced player (`youtube-nocookie.com`), which stores nothing on your
+  device unless you press play. If you do press play, YouTube (Google) receives your IP
+  address and may store information on your device, just as if you had followed a link to
+  YouTube itself.
 
 ## Managing cookies
 
@@ -58,7 +79,7 @@ Guidance for common browsers:
 ## Changes to this page
 
 If we change the cookies we use, we will update this page. It was last reviewed on
-**10th July 2026**.
+**24th September 2026**.
 
 ## Questions
 

@@ -68,7 +68,7 @@ The Foundation processes the personal data provided only for the purposes descri
 ### 4.4 Legal Basis for Processing
 
 - The Foundation processes personal data on the basis of consent, except in certain cases:
-  - The IP address upon site entry is recorded on the basis of the Foundation's legitimate interest (e.g. to ensure lawful operation, prevent misuse)
+  - The IP address upon site entry is recorded on the basis of the Foundation's legitimate interest (e.g. to ensure lawful operation, prevent misuse); the same legitimate interest is the basis for the bot‑protection check on the account signup form (see section 4.5)
   - Newsletter subscription is based on explicit, prior consent; unsubscribe is always possible
   - Complaint handling: legal obligation (for record‑keeping) or the Foundation's legitimate interest (e.g. lawful handling of disputes)
   - Direct contact with explicit consent: basis is the Data Subject's consent
@@ -76,6 +76,8 @@ The Foundation processes the personal data provided only for the purposes descri
 ### 4.5 Data Processors
 
 Data processors are entities engaged by the Foundation under a contract in accordance with Article 28 of the GDPR (e.g. IT providers, newsletter services). They process personal data on behalf of the Foundation only according to its instructions.
+
+- **Cloudflare, Inc.** provides the bot‑protection check (Cloudflare Turnstile) on the account signup form. When the check runs, Cloudflare processes the visitor's IP address and technical characteristics of their browser, solely to distinguish people from automated programs. The check sets no cookies and stores nothing on the visitor's device, and Cloudflare does not use this data for advertising or cross‑site tracking. The check runs only on the signup form, and only on deployments where it is enabled.
 
 ### 4.6 Duration of Data Processing
 
@@ -99,7 +101,7 @@ Data processors are entities engaged by the Foundation under a contract in accor
 - Data processors may include third parties providing hosting, IT support, email services, etc.
 - The processor must not act on its own regarding the data and may only use data according to instructions
 - Data may be transferred to competent authorities if required by law or court order
-- Personal data will **not** be transferred to entities in third countries (outside the EEA)
+- With one exception, personal data will **not** be transferred to entities in third countries (outside the EEA). The exception is the bot‑protection check on the account signup form (see section 4.5), provided by Cloudflare, Inc., a company established in the United States; this transfer is safeguarded by Cloudflare's certification under the EU–US Data Privacy Framework, for which the European Commission has issued an adequacy decision
 
 ## 7. Data Security
 
@@ -153,4 +155,4 @@ For questions, remarks, requests, or exercising privacy rights, contact:
 
 If you have any questions about how we handle your data, please contact us at [privacy@sortitionfoundation.org](mailto:privacy@sortitionfoundation.org).
 
-_Last updated: October 2025_
+_Last updated: September 2026_
