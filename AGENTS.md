@@ -55,7 +55,7 @@ The theme at `themes/govuk-sortition/` is lightweight and custom-built. Despite 
 - Plain hand-written CSS, no build step and no CSS framework
 - `static/css/tokens/primitive.css` and `semantic.css` are copies of the app's design tokens (`backend/static/backoffice/tokens/`). The only difference is the font URLs. When the app's tokens change, copy them across again
 - `static/css/style.css` holds every other style. Colours and fonts come from the tokens — prefer a semantic token (`--color-links`) over a primitive (`--color-brand-400`), and do not invent token names
-- Lato is self-hosted in `static/fonts/` (400 and 700 only; other weights are synthesized by the browser)
+- Lato 2.0 is self-hosted in `static/fonts/` at the four weights the app's type scale uses (400, 500, 600, 700), with its licence in `OFL.txt`. The files are copies of the app's (`backend/static/backoffice/fonts/`)
 - Layouts: `baseof.html` (shell), `single.html` (content pages), `list.html` (sections), `index.html` (home: hero, lottery steps, section cards, help panels). The home page text is hard-coded in `index.html`
 - Partials: `header.html`, `footer.html`, `sidebar.html` and `icon.html` (inline Lucide icons, paths copied from the app's `icons.html`)
 - Content pages render Markdown inside `.prose`. A button in Markdown is `<a class="btn btn--primary">`
