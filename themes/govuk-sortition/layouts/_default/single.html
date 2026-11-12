@@ -1,13 +1,13 @@
 {{/* ABOUTME: Single page template for standard content pages */}}
-{{/* ABOUTME: Renders markdown content in full-width GOV.UK layout */}}
+{{/* ABOUTME: Renders markdown content beside the side navigation */}}
 {{ define "content" }}
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-one-third sidebar-column">
+<div class="docs-layout">
+  <div class="sidebar-column">
     {{ partial "sidebar.html" . }}
   </div>
-  <div class="govuk-grid-column-two-thirds">
-    <h1 class="govuk-heading-xl">{{ .Title }}</h1>
-    <div class="govuk-body">
+  <div class="docs-content">
+    <h1 class="page-title">{{ .Title }}</h1>
+    <div class="prose">
       {{ .Content }}
     </div>
   </div>

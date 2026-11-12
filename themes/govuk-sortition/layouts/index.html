@@ -1,35 +1,118 @@
-{{/* ABOUTME: Home page template with hero section and feature cards */}}
-{{/* ABOUTME: Uses Sortition Foundation burnt-orange hero and GOV.UK grid for features */}}
+{{/* ABOUTME: Home page template - hero, the steps of a democratic lottery, section cards and help panels */}}
+{{/* ABOUTME: Follows the layout of the home page of the OpenDLP app, with full-width alternating bands */}}
 {{ define "content" }}
-<div class="hero-section govuk-!-padding-top-8 govuk-!-padding-bottom-8">
-  <h1 class="govuk-heading-xl hero-section__title">OpenDLP Documentation</h1>
-  <p class="govuk-body-l hero-section__description">
-    Documentation for the Open Democratic Lottery Platform &mdash; an open source tool
-    for running Citizens' Assemblies and democratic lotteries.
-  </p>
-</div>
+{{/* Hero */}}
+<section class="band band--tinted hero">
+  <div class="hero__inner">
+    {{/* The full logo carries the "OpenDLP / Democratic Lottery Platform"
+         wordmark, so its alt text names the product. */}}
+    <img src="{{ "img/opendlp-logo-light.svg" | relURL }}"
+         alt="OpenDLP - Democratic Lottery Platform"
+         width="400"
+         height="196"
+         class="hero__logo" />
+    <h1 class="hero__title">Your <span class="hero__highlight">guide</span> to democratic lotteries</h1>
+    <div class="hero__actions">
+      {{- with .Site.GetPage "/planning-lottery" }}
+      <a href="{{ .RelPermalink }}" class="btn btn--primary"><span>Get started</span><span class="btn-icon">{{ partial "icon.html" (dict "name" "chevron-right") }}</span></a>
+      {{- end }}
+      {{- with .Site.GetPage "/help" }}
+      <a href="{{ .RelPermalink }}" class="btn btn--primary"><span class="btn-icon">{{ partial "icon.html" (dict "name" "send") }}</span><span>Contact support</span></a>
+      {{- end }}
+    </div>
+    <div class="hero__intro">
+      <p>Documentation for the Open Democratic Lottery Platform &mdash; an open source tool for running Citizens' Assemblies and democratic lotteries.</p>
+    </div>
+  </div>
+</section>
 
-<div class="govuk-!-margin-top-6">
-  {{- $topLevelPages := where .Site.RegularPages "Section" "" }}
-  {{- $sections := .Site.Sections }}
-  {{- $allPages := (sort ($topLevelPages | append $sections) "Weight") }}
-  {{- range $index, $element := $allPages }}
-    {{- if (modBool $index 3) }}
-      <div class="govuk-grid-row">
-    {{- end }}
-    <div class="govuk-grid-column-one-third">
-      <div class="feature-card">
-        <h2 class="govuk-heading-m">
-          <a class="govuk-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h2>
-        {{- with .Description }}
-          <p class="govuk-body">{{ . }}</p>
+{{/* The steps of a democratic lottery, each linking to the section that covers it */}}
+{{- $steps := slice
+  (dict "title" "Plan your lottery" "page" "/planning-lottery" "text" "Work out what you need before you start: the data to gather, the targets your panel should meet, and how to get enough people to register.")
+  (dict "title" "Invite people to register" "page" "/democratic-lottery/register-interest" "text" "Send invitations to people selected by lottery, and give them a registration page that collects what your targets need.")
+  (dict "title" "Run the selection" "page" "/running-selection" "text" "Give OpenDLP your respondents and your targets, and it selects a group of people that matches those targets in a fair way.")
+  (dict "title" "Replace people who drop out" "page" "/running-replacement" "text" "If anyone drops out, select replacements so that the panel still matches your targets.")
+-}}
+<section class="band band--watermark-right" aria-labelledby="steps-heading">
+  <img src="{{ "img/opendlp-favicon.svg" | relURL }}" alt="" aria-hidden="true" class="band__watermark" />
+  <div class="band__inner">
+    <h2 id="steps-heading" class="band__title">How does a democratic lottery work?</h2>
+    <p class="band__lead">These guides follow a democratic lottery from the first plan to the final panel, and show how OpenDLP helps at each stage.</p>
+    <div class="steps-layout">
+      <ol class="steps">
+        {{- range $index, $step := $steps }}
+        <li class="step">
+          <div class="step__rail" aria-hidden="true">
+            <span class="step__line step__line--top"></span>
+            <span class="step__number">{{ add $index 1 }}</span>
+            <span class="step__line"></span>
+          </div>
+          <div class="step__body">
+            <h3 class="step__title">
+              {{- with $.Site.GetPage $step.page }}<a href="{{ .RelPermalink }}">{{ $step.title }}</a>{{ else }}{{ $step.title }}{{ end -}}
+            </h3>
+            <p>{{ $step.text }}</p>
+          </div>
+        </li>
         {{- end }}
+      </ol>
+      <div class="step step--aside">
+        <div class="step__rail" aria-hidden="true">
+          <span class="step__line"></span>
+          <span class="step__icon">{{ partial "icon.html" (dict "name" "users") }}</span>
+          <span class="step__line"></span>
+        </div>
+        <div class="step__body">
+          <h3 class="step__title">New to democratic lotteries?</h3>
+          <p>Start with the ideas behind them.</p>
+          <ul class="step__links">
+            {{- range (slice "/democratic-lottery" "/citizens-assembly") }}
+              {{- with $.Site.GetPage . }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{- end }}
+            {{- end }}
+          </ul>
+        </div>
       </div>
     </div>
-    {{- if or (modBool (add $index 1) 3) (eq (add $index 1) (len $allPages)) }}
-      </div>
-    {{- end }}
-  {{- end }}
-</div>
+  </div>
+</section>
+
+{{/* Every section and top-level page */}}
+<section class="band band--tinted" aria-labelledby="browse-heading">
+  <div class="band__inner">
+    <h2 id="browse-heading" class="band__title">Browse the documentation</h2>
+    {{- $topLevelPages := where .Site.RegularPages "Section" "" }}
+    {{- $sections := .Site.Sections }}
+    {{- $allPages := (sort ($topLevelPages | append $sections) "Weight") }}
+    <ul class="card-grid card-grid--three">
+      {{- range $allPages }}
+      <li class="card">
+        <h3 class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{- with .Description }}
+          <p class="card__text">{{ . }}</p>
+        {{- end }}
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+
+{{/* Help / Go to OpenDLP */}}
+<section class="band" aria-label="Help and OpenDLP">
+  <div class="band__inner panel-grid">
+    <div class="inset-panel">
+      <h2 class="inset-panel__title">Need help?</h2>
+      <p>If you can't find what you need here, our support team can help.</p>
+      {{- with .Site.GetPage "/help" }}
+      <a href="{{ .RelPermalink }}" class="btn btn--primary">Contact support</a>
+      {{- end }}
+    </div>
+    <div class="inset-panel">
+      <h2 class="inset-panel__title">Ready to run a lottery?</h2>
+      <p>Sign in to OpenDLP, or create a free account.</p>
+      <a href="{{ .Site.Params.appURL }}" class="btn btn--primary">Go to OpenDLP</a>
+    </div>
+  </div>
+</section>
 {{ end }}

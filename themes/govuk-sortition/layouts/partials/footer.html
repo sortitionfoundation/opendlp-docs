@@ -1,32 +1,53 @@
-{{/* ABOUTME: Site footer with links to GitHub, Sortition Foundation, and data agreement */}}
-{{/* ABOUTME: Matches the GOV.UK footer pattern used in the backend application */}}
-<footer class="govuk-footer" role="contentinfo">
-    <div class="govuk-width-container">
-        <div class="govuk-footer__meta">
-            <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
-                <h2 class="govuk-visually-hidden">Support links</h2>
-                <ul class="govuk-footer__inline-list">
-                    <li class="govuk-footer__inline-list-item">
-                        <a class="govuk-footer__link"
-                           href="{{ .Site.Params.githubURL }}"
-                           target="_blank">GitHub</a>
-                    </li>
-                    <li class="govuk-footer__inline-list-item">
-                        <a class="govuk-footer__link"
-                           href="{{ .Site.Params.sortitionFoundationURL }}"
-                           target="_blank">Sortition Foundation</a>
-                    </li>
-                    <li class="govuk-footer__inline-list-item">
-                        <a class="govuk-footer__link"
-                           href="{{ "data-and-legal/data-agreement/" | relURL }}">User Data Agreement</a>
-                    </li>
-                </ul>
-                <div class="govuk-footer__meta-custom">
-                    <p class="govuk-body-s">
-                        OpenDLP is an open source platform for Democratic Lottery and Citizens' Assembly management.
-                    </p>
-                </div>
-            </div>
-        </div>
+{{/* ABOUTME: Site footer with product, support and legal link columns and the Sortition Foundation credit */}}
+{{/* ABOUTME: Matches the column footer on the home page of the OpenDLP app */}}
+<footer class="site-footer">
+  <div class="site-footer__columns">
+    <div class="site-footer__column">
+      <a href="{{ "/" | relURL }}" class="site-footer__logo-link">
+        <img src="{{ "img/opendlp-small-sized-logo.svg" | relURL }}"
+             alt="OpenDLP"
+             width="107"
+             height="48" />
+      </a>
+      <p>OpenDLP is an open source platform for Democratic Lottery and Citizens' Assembly management.</p>
+      <p><a class="site-footer__app-link" href="{{ .Site.Params.appURL }}">Go to OpenDLP</a></p>
     </div>
+    <div class="site-footer__column">
+      <h2 class="site-footer__title">Product</h2>
+      <ul>
+        <li><a href="{{ .Site.Params.appURL }}">OpenDLP</a></li>
+        <li><a href="{{ .Site.Params.appGithubURL }}" target="_blank" rel="noopener">Source code on GitHub</a></li>
+        <li><a href="{{ .Site.Params.githubURL }}" target="_blank" rel="noopener">Documentation source on GitHub</a></li>
+      </ul>
+    </div>
+    <div class="site-footer__column">
+      <h2 class="site-footer__title">Support</h2>
+      <ul>
+        <li><a href="{{ "help/" | relURL }}">Help and support</a></li>
+        <li><a href="mailto:{{ .Site.Params.supportEmail }}">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="site-footer__column">
+      <h2 class="site-footer__title">Legal</h2>
+      <ul>
+        <li><a href="{{ "data-and-legal/cookies/" | relURL }}">Cookies</a></li>
+        <li><a href="{{ "data-and-legal/data-agreement/" | relURL }}">User Data Agreement</a></li>
+      </ul>
+    </div>
+    <div class="site-footer__column">
+      <h2 class="site-footer__title">Developed by</h2>
+      <a href="{{ .Site.Params.sortitionFoundationURL }}" target="_blank" rel="noopener" class="site-footer__logo-link">
+        <img src="{{ "img/logosortition.svg" | relURL }}"
+             alt="Sortition Foundation"
+             width="107"
+             height="36" />
+      </a>
+      <p>We’re democratic lottery experts and we campaign for permanent and powerful citizens’ assemblies</p>
+    </div>
+  </div>
+  <p class="site-footer__legal">
+    <span class="site-footer__copyright">{{ partial "icon.html" (dict "name" "copyright") }}<span class="visually-hidden">Copyright</span>Sortition Europe</span>
+    <span aria-hidden="true">•</span>
+    <span>Open source under the Apache License 2.0</span>
+  </p>
 </footer>
