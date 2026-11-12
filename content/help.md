@@ -23,4 +23,4 @@ To help us resolve your issue as quickly as possible, please include:
 
 ## Additional Resources
 
-You may also find helpful information at the[OpenDLP GitHub Repository](https://github.com/sortitionfoundation/opendlp). This includes technical documentation and known issues.
+You may also find helpful information at the [OpenDLP GitHub Repository](https://github.com/sortitionfoundation/opendlp). This includes technical documentation and known issues.
