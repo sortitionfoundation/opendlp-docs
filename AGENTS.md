@@ -4,7 +4,7 @@
 
 This is the documentation site for **OpenDLP** (Open Democratic Lottery Platform), an open-source tool for running Citizens' Assemblies and democratic lotteries, built by the Sortition Foundation.
 
-The site is built with [Hugo](https://gohugo.io/) and uses a custom theme styled after the GOV.UK Design System with Sortition Foundation branding.
+The site is built with [Hugo](https://gohugo.io/) and uses a custom theme that follows the design system of the OpenDLP app (Lato, the app's colour tokens, no GOV.UK Frontend).
 
 ## Key Directories and Files
 
@@ -50,12 +50,16 @@ Sveltia CMS does not natively support nested folders, so each folder under `cont
 
 ## Theme
 
-The theme at `themes/govuk-sortition/` is lightweight and custom-built:
+The theme at `themes/govuk-sortition/` is lightweight and custom-built. Despite its name it no longer uses GOV.UK Frontend: it follows the design system of the OpenDLP app (`backend/` in the `opendlp` repo), and the app's public home page (`templates/public/home.html`) is the model for the docs home page.
 
-- Uses GOV.UK Frontend CSS/JS from CDN (v5.11.1)
-- Custom CSS in `static/css/style.css` with Sortition Foundation brand colours
-- Layouts: `baseof.html` (shell), `single.html` (content pages), `list.html` (sections), `index.html` (home with hero + feature cards)
-- Partials: `header.html` and `footer.html`
+- Plain hand-written CSS, no build step and no CSS framework
+- `static/css/tokens/primitive.css` and `semantic.css` are copies of the app's design tokens (`backend/static/backoffice/tokens/`). The only difference is the font URLs. When the app's tokens change, copy them across again
+- `static/css/style.css` holds every other style. Colours and fonts come from the tokens — prefer a semantic token (`--color-links`) over a primitive (`--color-brand-400`), and do not invent token names
+- Lato is self-hosted in `static/fonts/` (400 and 700 only; other weights are synthesized by the browser)
+- Layouts: `baseof.html` (shell), `single.html` (content pages), `list.html` (sections), `index.html` (home: hero, lottery steps, section cards, help panels). The home page text is hard-coded in `index.html`
+- Partials: `header.html`, `footer.html`, `sidebar.html` and `icon.html` (inline Lucide icons, paths copied from the app's `icons.html`)
+- Content pages render Markdown inside `.prose`. A button in Markdown is `<a class="btn btn--primary">`
+- Links to the app use `appURL` from `hugo.toml`
 - No custom shortcodes
 
 ## Building and Running
