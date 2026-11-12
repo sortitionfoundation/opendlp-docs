@@ -8,7 +8,7 @@ If you need help with OpenDLP, please contact our support team by email. We aim 
 
 ## Contact Support
 
-<a href="mailto:opendlp-support@sortitionfoundation.org?subject=OpenDLP%20Support%20Request&body=Please%20describe%20your%20issue%20below%3A%0A%0A---%0A%0APlease%20include%20the%20following%20information%20if%20relevant%3A%0A-%20Assembly%20name%20or%20ID%0A-%20Steps%20to%20reproduce%20the%20issue%0A-%20Any%20error%20messages%20you%20saw%0A-%20Browser%20and%20operating%20system" class="govuk-button">Email Support</a>
+<a href="mailto:opendlp-support@sortitionfoundation.org?subject=OpenDLP%20Support%20Request&body=Please%20describe%20your%20issue%20below%3A%0A%0A---%0A%0APlease%20include%20the%20following%20information%20if%20relevant%3A%0A-%20Assembly%20name%20or%20ID%0A-%20Steps%20to%20reproduce%20the%20issue%0A-%20Any%20error%20messages%20you%20saw%0A-%20Browser%20and%20operating%20system" class="btn btn--primary">Email Support</a>
 
 ## What to include in your support request
 
