@@ -1,0 +1,160 @@
+/* ABOUTME: Copy of the OpenDLP app's primitive design tokens (backend/static/backoffice/tokens/primitive.css) */
+/* ABOUTME: Kept identical to the app apart from the font URLs, so the docs site and the app share one palette */
+
+/**
+ * Primitive Design Tokens
+ * Raw design values - colors, spacing, typography scales
+ * These are the foundation that semantic tokens reference
+ */
+
+/* @font-face declarations - self-hosted via @fontsource
+ * Lato ships at weights 100/300/400/700/900 only. Weights 500 and 600
+ * are browser-synthesized (matches Figma intent even without real files). */
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url("../../fonts/lato-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url("../../fonts/lato-latin-700-normal.woff2") format("woff2");
+}
+
+:root {
+    /* ========================================
+     BRAND PRIMARY SCALE
+     Pink/Magenta/Crimson palette
+     ======================================== */
+
+    --color-brand-50: #FBE7EF;
+    --color-brand-100: #F4B6CB;
+    --color-brand-200: #E682A4;
+    --color-brand-300: #C70039;
+    --color-brand-400: #90003F;
+    --color-brand-500: #820042;
+    --color-brand-600: #720046;
+    --color-brand-700: #5E003A;
+    --color-brand-800: #46002A;
+
+    /* ========================================
+     CORE NEUTRALS SCALE
+     Cool gray palette
+     ======================================== */
+
+    --color-neutral-0: #FFFFFF;
+    --color-neutral-50: #F7F7F8;
+    --color-neutral-100: #EFEFF1;
+    --color-neutral-200: #E1E2E5;
+    --color-neutral-300: #C8CAD0;
+    --color-neutral-400: #9EA2AC;
+    --color-neutral-500: #6F7482;
+    --color-neutral-600: #4E5361;
+    --color-neutral-700: #2F3442;
+    --color-neutral-800: #1F2330;
+    --color-neutral-900: #12141C;
+
+    /* ========================================
+     DATA VISUALIZATION SCALE
+     Categorical chart colours from the Figma "Colors – data visualization"
+     page (node 5326-7654). Only the 100/400/700 steps are tokenised — the
+     steps charts actually cycle through.
+     ======================================== */
+
+    --color-data-orange-100: #FFEFB0;
+    --color-data-orange-400: #F1A535;
+    --color-data-orange-700: #B56C00;
+
+    --color-data-blood-orange-100: #FFC8B5;
+    --color-data-blood-orange-400: #F17946;
+    --color-data-blood-orange-700: #9C3418;
+
+    --color-data-pink-100: #FBBDD0;
+    --color-data-pink-400: #E08898;
+    --color-data-pink-700: #A11564;
+
+    --color-data-purple-100: #DBC4F1;
+    --color-data-purple-400: #9B65C8;
+    --color-data-purple-700: #6F1C90;
+
+    --color-data-indigo-100: #C3C9EB;
+    --color-data-indigo-400: #6574C4;
+    --color-data-indigo-700: #2D3A81;
+
+    --color-data-blue-100: #B1E4FC;
+    --color-data-blue-400: #33BAF6;
+    --color-data-blue-700: #0278AD;
+
+    --color-data-turquoise-100: #B0F2EF;
+    --color-data-turquoise-400: #33C9D0;
+    --color-data-turquoise-700: #008997;
+
+    --color-data-green-100: #CBE8C9;
+    /* Figma's green-400 swatch is filled with a stray blue (#71DBF3); the
+       value here follows the card's rgb(112,191,115) caption, which sits
+       where a green-400 belongs between green-300 and green-500. */
+    --color-data-green-400: #70BF73;
+    --color-data-green-700: #367C39;
+
+    --color-data-grey-100: #DDE3D8;
+    --color-data-grey-400: #8B97A2;
+    --color-data-grey-700: #4A5F63;
+
+    --color-data-brown-100: #D5CACC;
+    --color-data-brown-400: #8A7362;
+    --color-data-brown-700: #5E3C35;
+
+    /* ========================================
+     SPACING SCALE
+     ======================================== */
+
+    --spacing-0: 0;
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.5rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-5: 1.25rem;
+    --spacing-6: 1.5rem;
+    --spacing-8: 2rem;
+    --spacing-10: 2.5rem;
+    --spacing-12: 3rem;
+    --spacing-16: 4rem;
+
+    /* ========================================
+     TYPOGRAPHY - Font Families (Primitives)
+     Lato throughout. Per-role aliases retained so future re-branding can
+     swap one role without touching consumers.
+     ======================================== */
+
+    --font-sans: "Lato", sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+    --font-display: var(--font-sans);
+    --font-heading: var(--font-sans);
+    --font-body: var(--font-sans);
+    --font-caption: var(--font-sans);
+    --font-overline: var(--font-sans);
+    --font-label: var(--font-sans);
+    --font-button: var(--font-sans);
+
+    /* ========================================
+     BORDERS & EFFECTS
+     ======================================== */
+
+    /* Border Radius */
+    --radius-sm: 0.125rem;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
