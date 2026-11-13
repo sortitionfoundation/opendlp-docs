@@ -24,7 +24,7 @@ While invites are being designed, we also need to select, by lottery, the people
 
 You will need to set up a method for people who receive an invite to say "Yes"! Most people will do this via an online form, but it is also good to give the option of telephone registration.
 
-To set up your page you will need to know which features and feature values you will be using for your [targets]((democratic-lottery/selection/targets2/). For instance, if you are going to have a "gender" target, then your page will need a question "What is your gender?" together with the answers: *female* / *male* / *non-binary or other*.
+To set up your page you will need to know which features and feature values you will be using for your [targets](/democratic-lottery/selection/targets2/). For instance, if you are going to have a "gender" target, then your page will need a question "What is your gender?" together with the answers: *female* / *male* / *non-binary or other*.
 
 
 ## 2. Printing and posting

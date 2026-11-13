@@ -14,7 +14,7 @@ There are three main ways that Sortition Foundation selects the people who recei
 
 In the UK, Australia, the US, Ireland and in several other countries, our preferred method is to send invitations by post. We use bespoke software to select addresses, by lottery, from national databases of postal addresses. E.g. in the UK we use the [PAF](https://www.poweredbypaf.com/).
 
-If we are recruiting for an assembly of, say, X=50 people, we normally recommend sending out between 200x=10000 and 300X=15000 letters. This ensures that we get a good number of people in the pool so that we hit all of our targets.
+If we are recruiting for an assembly we normally recommend sending out (200-300 x assembly-size) letters. So between 10000 and 15000 letters for an assembly of 50 people. This ensures that we get a good number of people in the pool so that we hit all of our targets.
 
 By experience we know that we tend to get a lower response rate from people living in more deprived areas. As a result, in the UK our default is to weight our address lottery so that more addresses go to houses with [IMD scores 1 to 3](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025/english-indices-of-deprivation-2025-statistical-release).
 
@@ -24,10 +24,9 @@ By experience we know that we tend to get a lower response rate from people livi
     <figcaption>A recent address selection in Wales.</figcaption>
 </figure>
 
-
 ## Door knocking
 
-In Europe, especially when we are running [transnational democratic lotteries for the EU](https://www.sortitionfoundation.org/ecps_methodology), we distribute invitations by door knocking. We run a [network of door knocking teams across all 26 countries in the EU](https://www.sortitionfoundation.org/sort-eu-network). 
+In Europe, especially when we are running [transnational democratic lotteries for the EU](https://www.sortitionfoundation.org/ecps_methodology), we distribute invitations by door knocking. We run a [network of door knocking teams across all 26 countries in the EU](https://www.sortitionfoundation.org/sort-eu-network).
 
 To use the method in, say, Poland, we first select 10 locations across Poland by lottery. The lottery is weighted by population and is done in such a way that there are both urban and rural locations selected. Our teams then travel to each of the 10 locations and knock on doors until they have signed up a certain minimum number from each location.
 

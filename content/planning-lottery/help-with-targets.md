@@ -4,7 +4,7 @@ description: Some general rules of thumb
 weight: 40
 ---
 
-Make sure you've read the [what and why](/selection/targets1/) and the [when and how](/selection/targets2/) articles about **targets**. Here we give you a few final helpful tips:
+Make sure you've read the [what and why](/democratic-lottery/selection/targets1/) and the [when and how](/democratic-lottery/selection/targets2/) articles about **targets**. Here we give you a few final helpful tips:
 
 ## How to approach targets
 
@@ -24,7 +24,7 @@ When thinking about what questions to ask, these are things to bear in mind:
 
 ## How to set targets
 
-**1. Use trusted sources.**  Ideally, use official census data. Where the census doesn't cover a category (such as attitudinal questions), find the most trusted source available. If there is no source available we may choose to use [targets for inclusion](/selection/targets2/) to ensure diversity.
+**1. Use trusted sources.**  Ideally, use official census data. Where the census doesn't cover a category (such as attitudinal questions), find the most trusted source available. If there is no source available we may choose to use [targets for inclusion](/democratic-lottery/selection/targets2/) to ensure diversity.
 
 **2. Justify deviations**. Sometimes, you might want to over-represent a community. Be clear about why you've made that decision - are they disproportionately affected? Is there a historical or cultural safety reason?
 

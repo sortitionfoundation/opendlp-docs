@@ -15,5 +15,5 @@ The final phase of the [democratic lottery workflow](/planning-lottery/workflow)
  - Sort out practical support needs quickly! If people are unsure whether they will have the correct tech support/ travel funds/ accessible access etc etc, then they are likely to start thinking twice.
  - How can you build a sense of warm anticipation amongst your confirmed participants? The more personal and human the better! People are likely to be a bit anxious and unsure, so how can you reassure them? One successful method we've heard about is to send out personal welcome videos from the facilitators that they will be meeting on the day. 
  - Some organisations have reported positive results from sending physical materials to selected participants addresses, to make it concretely real that they are part of an event.
- - Some processes have used pre-event informal meetings of participants e.g. in a cafe or bar, or have had a video call, or set up WhatsApp groups, so that people feel connected to the event in advance."
+ - Some processes have used pre-event informal meetings of participants e.g. in a cafe or bar, or have had a video call, or set up WhatsApp groups, so that people feel connected to the event in advance.
  - Do not leave it too late to get in touch, and do not assume participants you haven't heard from will turn up.
