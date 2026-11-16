@@ -125,17 +125,6 @@ collections:
     fields: *page_fields
     index_file:
       fields: *index_file_fields
-  - name: running-replacement-pages
-    label: Running Replacement Pages
-    label_singular: Running Replacement Page
-    folder: content/running-replacement
-    create: true
-    extension: md
-    format: yaml-frontmatter
-    slug: "{{slug}}"
-    fields: *page_fields
-    index_file:
-      fields: *index_file_fields
   - name: data-legal-pages
     label: Data and Legal Pages
     label_singular: Data and Legal Page
