@@ -275,7 +275,36 @@ a:hover {
   display: none !important;
 }
 
+/* Clear button: an "X" in place of the magnifying glass once there is a query.
+   The "Clear" text is kept for screen readers but not shown */
 .pagefind-ui .pagefind-ui__search-clear {
+  top: 6px;
+  right: 6px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  font-size: 0;
+  color: transparent;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232F3442' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E");
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.pagefind-ui .pagefind-ui__search-clear:hover {
+  background-color: var(--color-button-tertiary-bg-hover);
+}
+
+.pagefind-ui:has(.pagefind-ui__search-clear:not(.pagefind-ui__suppressed))::before {
+  display: none;
+}
+
+/* Set by baseof.html when the visitor clicks outside the search box */
+#search.search--closed .pagefind-ui__drawer {
   display: none;
 }
 

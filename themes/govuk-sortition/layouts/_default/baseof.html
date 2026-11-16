@@ -34,6 +34,21 @@
             showSubResults: true,
             showImages: false
           });
+
+          // Close the results dropdown on a click outside the search box,
+          // and reopen it when the search box is used again
+          var search = document.getElementById('search');
+          document.addEventListener('click', function(event) {
+            if (!search.contains(event.target)) {
+              search.classList.add('search--closed');
+            }
+          });
+          search.addEventListener('focusin', function() {
+            search.classList.remove('search--closed');
+          });
+          search.addEventListener('input', function() {
+            search.classList.remove('search--closed');
+          });
         }
 
         // Mobile menu toggle
