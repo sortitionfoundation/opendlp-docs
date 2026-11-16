@@ -77,6 +77,7 @@ _Duration of data processing:_ 
 _Data processors:_
 
 | **Name** | **Location** | **Data processor’s tasks** |
+| --- | --- | --- |
 | Microsoft Ireland Operations Ltd. | One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland | Cloud based infrastructure, server hosting (Azure/VM) and OAuth 2.0 authentication. |
 | Google Ireland Limited | Gordon House, Barrow Street, Dublin 4, Ireland | Data source integration (Google Sheets), cloud based storage and OAuth 2.0 authentication. |
 | Sortition Foundation | HQ: 27 Old Gloucester Street, London, WC1N 3AX, United Kingdom | Software maintenance, technical support, supervision of the algorithm and technical execution of data handling processes. |
@@ -102,6 +103,7 @@ _Duration of data processing:_
 _Data processor:_
 
 | **Name** | **Location** | **Data processor’s tasks** |
+| --- | --- | --- |
 | Sendinblue SAS (Brevo) | 122 rue du Faubourg Saint-Honoré, 75008 Párizs, France | Technical sending of transactional emails (confirmations, notifications). |
 
 4. **Handling future inquiries**
