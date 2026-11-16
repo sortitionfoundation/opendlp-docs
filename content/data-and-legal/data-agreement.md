@@ -1,6 +1,6 @@
 ---
 title: User Data Agreement
-description: How OpenDLP handles your personal data
+description: How OpenDLP handles system users and lottery applicants personal data
 ---
 
 
