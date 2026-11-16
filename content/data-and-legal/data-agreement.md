@@ -12,7 +12,7 @@ description: How OpenDLP handles system users and lottery applicants personal da
 
 The purpose of this data processing policy (hereinafter: policy) is to present the data processing processes related to the OpenDLP software developed and operated by Sortition Europe Nonprofit Kft. (registered office: 1092 Budapest, Ráday utca 31. C. lház. 1. emel 11. avt.; company registration number: 01-09-419871; tax number: 32356465-2-43; Hennig Brett Stephen, managing director) as data controller.
 
-The technological background of the software is provided by the Sortition Foundation (registered office: Lytchett House, 13 Freeland Park Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom).  Given that the parent company determines the technical framework of the software and provides the server infrastructure, the software operates in a flexible data management model. Depending on the contractual agreement with the Client (Partner), Sortition Europe Nonprofit Kft. and the Sortition Foundation may act either as Joint Data Controllers pursuant to Article 26 of the GDPR, or as Data Processors acting strictly on behalf of the Client, who remains the sole Data Controller. For the long-term database management described in Section 3, Sortition Europe Nonprofit Kft. acts as an Independent Data Controller 
+The technological background of the software is provided by the Sortition Foundation (registered office: Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom).  Given that the parent company determines the technical framework of the software and provides the server infrastructure, the software operates in a flexible data management model. Depending on the contractual agreement with the Client (Partner), Sortition Europe Nonprofit Kft. and the Sortition Foundation may act either as Joint Data Controllers pursuant to Article 26 of the GDPR, or as Data Processors acting strictly on behalf of the Client, who remains the sole Data Controller. For the long-term database management described in Section 3, Sortition Europe Nonprofit Kft. acts as an Independent Data Controller 
 
 The joint data controllers have set out in a separate agreement the procedure for handling data subject requests, the responsibilities for incident management, the sharing of technical and organizational measures, and the rules for communicating with data subjects. Data subjects may exercise their rights against any joint data controller.
 
@@ -80,7 +80,7 @@ _Data processors:_
 | --- | --- | --- |
 | Microsoft Ireland Operations Ltd. | One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland | Cloud based infrastructure, server hosting (Azure/VM) and OAuth 2.0 authentication. |
 | Google Ireland Limited | Gordon House, Barrow Street, Dublin 4, Ireland | Data source integration (Google Sheets), cloud based storage and OAuth 2.0 authentication. |
-| Sortition Foundation | HQ: 27 Old Gloucester Street, London, WC1N 3AX, United Kingdom | Software maintenance, technical support, supervision of the algorithm and technical execution of data handling processes. |
+| Sortition Foundation | Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom | Software maintenance, technical support, supervision of the algorithm and technical execution of data handling processes. |
 | Mythic Beasts Ltd. | Cambridge, UK | Server hosting and backups. |
 
 Possible consequence of failure to process data: The Data Subject cannot participate in the lottery process, so the opportunity to participate in the citizens assembly cannot be ensured.
@@ -104,7 +104,7 @@ _Data processor:_
 
 | **Name** | **Location** | **Data processor’s tasks** |
 | --- | --- | --- |
-| Sendinblue SAS (Brevo) | 122 rue du Faubourg Saint-Honoré, 75008 Párizs, France | Technical sending of transactional emails (confirmations, notifications). |
+| Sendinblue SAS (Brevo) | 122 rue du Faubourg Saint-Honoré, 75008 Paris, France | Technical sending of transactional emails (confirmations, notifications). |
 
 4. **Handling future inquiries**
 
