@@ -1,6 +1,6 @@
 ---
-title: Data handling and the legal agreements
-description: How OpenDLP handles your personal data
+title: Data handling and legal agreements
+description: ''
 weight: 40
 ---
 
